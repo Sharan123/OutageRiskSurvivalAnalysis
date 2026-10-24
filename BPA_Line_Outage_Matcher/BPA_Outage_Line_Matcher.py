@@ -14,6 +14,13 @@ base_dir = Path(__file__).resolve().parent.parent
 if base_dir not in sys.path:
     sys.path.append(str(base_dir))
 
+from FeatureManager.outage_events import consolidate_matched_outages, dedupe_hits, DEFAULT_WEATHER_CAUSES, bpa_pacific_to_utc
+
+DEFAULT_PREPROCESSED_CSV = 'BPA_Line_Outage_Matcher/preprocessed_outages_2018_2023.csv'
+# Per-line (sub-event) columns stored comma-joined in the CSV
+LIST_COLUMNS = ['In Datetime', 'In Datetime (Pacific)', 'Original Line Name', 'Line Type', 'O&M District',
+                'Length (miles)', 'Duration (minutes)', 'Name']
+
 class BPAOutageMatcher:
     def __init__(self, years = ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
                         excluded_line_types = ['S', 'TS'],
@@ -96,9 +103,20 @@ class BPAOutageMatcher:
             self.dfs_years.append(data)
     
     def preprocess_fields_outage_dataframes(self):
+        # BPA times are Pacific wall-clock time (PST/PDT); the weather index is UTC (R5.2).
+        # Convert here so the preprocessed CSV and every consumer see UTC; keep the raw strings.
+        self.timezone_audit = {}
         for df_year in self.dfs_years:
-            df_year["Out Datetime"] = pd.to_datetime(df_year["Out Datetime"])
-            df_year["In Datetime"] = pd.to_datetime(df_year["In Datetime"])
+            df_year["Out Datetime (Pacific)"] = df_year["Out Datetime"].astype(str)
+            df_year["In Datetime (Pacific)"] = df_year["In Datetime"].fillna("").astype(str)
+            out_utc, in_utc, audit = bpa_pacific_to_utc(df_year["Out Datetime"], df_year["In Datetime"],
+                                                        df_year["Duration (minutes)"], df_year["Outage ID"])
+            df_year["Out Datetime"], df_year["In Datetime"] = out_utc, in_utc
+            self.timezone_audit[df_year.name] = audit
+        if self._verbose:
+            tot = {k: sum(a[k] for a in self.timezone_audit.values()) for k in next(iter(self.timezone_audit.values()))}
+            print(f"BPA times Pacific -> UTC: {tot}")
+        for df_year in self.dfs_years:
             #Rename "Responsible System Dispatch" and "Cause Dispatch", and District to be consistant. Save original line names 
             df_year.rename(columns={"Responsible System Dispatch": "Responsible System", "Cause Dispatch" : "Cause", 
                                     "District": "O&M District", "Name": "Original Line Name"},inplace=True)
@@ -510,6 +528,9 @@ class BPAOutageMatcher:
             #print("Name: ", row['Name'])
             self.no_match_outages[line_type].append(row['Name'])
             return None
+        # The line inventory has two name rows for some XRefCds (e.g. HALNT-ALEU-1),
+        # so fuzzy matching could return the same code twice.
+        hits, hits_types = dedupe_hits(hits, hits_types)
         row['XRefCd'] = hits
         row['XRefCd_Type'] = hits_types
         return row  
@@ -553,18 +574,14 @@ class BPAOutageMatcher:
                     print(f"Name: {name}, Count: {count}")
             print(tabulate(self.combined_with_lines.head(), headers="keys", tablefmt="psql"))
 
-        self.grouped = self.combined_with_lines.groupby(['Outage ID', 'Voltage (kV)', 'Out Datetime', 'Cause', 'Responsible System']).agg({
-            'In Datetime': list,
-            'Original Line Name': list,
-            'Line Type': list,
-            'O&M District': list,
-            'Length (miles)': list,
-            'Duration (minutes)': list,
-            'Name': list,
-            'XRefCd': list,
-            'XRefCd_Type': list
-        })
-        self.grouped = self.grouped.reset_index()
+        # One row per Outage ID with one sub-event per UNIQUE XRefCd (2026-10-08 fix).
+        # The previous groupby on (Outage ID, Voltage, Out Datetime, Cause, Responsible
+        # System) split an outage whose rows had different causes into several groups,
+        # and _remove_duplicates then kept the alphabetically first cause group and
+        # dropped the others (e.g. the five Weather rows of outage 200342). Rules:
+        #   cause   = a weather cause if any row has one, else first non-Unknown, else Unknown
+        #   restore = per line, the latest KNOWN restore time; "still out" only if none known
+        self.grouped = consolidate_matched_outages(self.combined_with_lines, DEFAULT_WEATHER_CAUSES)
         self._remove_duplicates()
 
     def _remove_duplicates(self):
@@ -579,8 +596,9 @@ class BPAOutageMatcher:
             # Also print the number of duplicates
             print(f"Number of duplicates: {duplicates.sum()}")
 
-        self.grouped.drop_duplicates(subset='Outage ID', inplace=True)
-        duplicates = self.grouped.duplicated(subset='Outage ID', keep=False)
+        # Consolidation guarantees one row per Outage ID; never drop rows silently.
+        if duplicates.any():
+            raise RuntimeError(f"{int(duplicates.sum())} rows share an Outage ID after consolidation.")
         if self._verbose:
             if duplicates.any():
                 print(self.grouped[duplicates])
@@ -612,15 +630,17 @@ class BPAOutageMatcher:
 
     def save_csv(self, filename):
         self.grouped[['XRefCd', 'XRefCd_Type']] = self.grouped[['XRefCd', 'XRefCd_Type']].apply(lambda x: x.map(lambda y: ','.join('['+','.join(z)+']' for z in y)))
-        self.grouped[['In Datetime','Original Line Name', 'Line Type', 'O&M District', 'Length (miles)', 'Duration (minutes)', 'Name']] = self.grouped[['In Datetime','Original Line Name', 'Line Type', 'O&M District', 'Length (miles)', 'Duration (minutes)', 'Name']].apply(lambda x: x.map(lambda y: ','.join(str(z) for z in y)))
+        self.grouped[LIST_COLUMNS] = self.grouped[LIST_COLUMNS].apply(lambda x: x.map(lambda y: ','.join(str(z) for z in y)))
         #grouped[['In Datetime']] = grouped[['In Datetime']].applymap(lambda x: ','.join(y.strftime('%Y-%m-%d %H:%M:%S') for y in x))
-        self.grouped.to_csv(filename, index=False)
+        # LF on every platform: the CSV's SHA-256 feeds inputs_fingerprint, compared across machines
+        self.grouped.to_csv(filename, index=False, lineterminator="\n")
     
-    def load_csv(self, filename='BPA_Line_Outage_Matcher/preprocessed_outages_2018_2023.csv'):
-        self.grouped = pd.read_csv(Path(__file__).parent.parent /filename)
+    def load_csv(self, filename=DEFAULT_PREPROCESSED_CSV):
+        self.csv_path = Path(__file__).parent.parent / filename  # fingerprinted by OutageDataManager's cache key
+        self.grouped = pd.read_csv(self.csv_path)
         for col in ['XRefCd', 'XRefCd_Type']:
             self.grouped[col] = self.grouped[col].apply(self.correct_and_eval_list_of_lists)
-        for col in ['In Datetime','Original Line Name', 'Line Type', 'O&M District', 'Length (miles)', 'Duration (minutes)', 'Name']:
+        for col in [c for c in LIST_COLUMNS if c in self.grouped.columns]:
             self.grouped[col] = self.grouped[col].apply(lambda x: x.split(',') if pd.notna(x) else [float('nan')])
 
     def correct_and_eval_list_of_lists(self, x):

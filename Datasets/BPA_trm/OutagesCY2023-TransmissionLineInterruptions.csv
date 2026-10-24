@@ -1,5 +1,67 @@
 Transmission Line Interruptions,,,,,,,,,,,,,
 Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Duration (minutes),Outage Type,Cause,Responsible System,O&M District,Transmission Owner NERC TADS,Outage ID
+06/13/1996 10:20,,Alvey-Fairview No 1 230kV line,230.0,L,T,97.46,still out,Plan,Normally Out,BPA,EUG,BPAT,47311
+06/13/1996 10:20,,Reston tap to Alvey-Fairview No 1 230kV line,230.0,T, ,0.04,still out,Plan,Normally Out,BPA,EUG,BPAT,47311
+12/31/2003 17:45,,Raver tap to Schultz-Echo Lake No 1 500kV line,500.0,T, ,2.95,still out,Plan,Normally Out,BPA,COV,BPAT,140124
+12/31/2003 17:45,,Schultz-Echo Lake No 1 500kV line,500.0,L,T,83.36,still out,Plan,Normally Out,BPA,WEN COV,BPAT,140124
+10/19/2011 11:08,,Liberty Lake tap to Vera tap to Trentwood-Valley Way No 1 115kV line,115.0,TT, ,0.10,still out,Plan,Normally Out,BPA,SPK,BPAT,177330
+10/19/2011 11:08,,Trentwood-Valley Way No 1 115kV line,115.0,L,T,2.72,still out,Plan,Normally Out,BPA,SPK,BPAT,177330
+05/05/2015 14:42,,Four Lakes tap to Shawnee-Sunset 115kV line,115.0,T, ,5.92,still out,Plan,Normally Out,Foreign,SPK,AVA,192783
+05/05/2015 14:42,,Shawnee-Sunset 115kV line,115.0,L,T,52.65,still out,Plan,Normally Out,Foreign,,AVA,192783
+08/08/2015 18:37,,Bald Mountain tap to Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,TT, ,0.38,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,194106
+08/08/2015 18:37,,Bald Mountain tap-Underwood section of Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,TS, ,0.99,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,194106
+08/08/2015 18:37,,Bonneville PH 1-North Camas No 1 115kV line,115.0,L,T,22.12,still out,Plan,Normally Out,BPA,LGV,BPAT,194106
+08/08/2015 18:37,,Carson tap to Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,TT, ,1.24,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,194106
+08/08/2015 18:37,,Carson-Bald Mountain tap section of Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,TS, ,15.35,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,194106
+08/08/2015 18:37,,North Bonneville Annex tap to Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,TT, ,0.10,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,194106
+08/08/2015 18:37,,Stevenson tap to Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,TT, ,0.10,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,194106
+08/08/2015 18:37,,Underwood tap-North Bonneville Annex section of Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,TS, ,0.10,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,194106
+06/01/2018 10:43,,Walla Walla-Pendleton No 1 69kV line,69.0,L,O,38.93,still out,Plan,Normally Out,BPA,TRI,BPAT,206278
+06/01/2018 10:43,,Weston Mountain-Milton section of Milton tap to Walla Walla-Pendleton No 1 69kV line,69.0,TS, ,0.48,still out,Plan,Normally Out,BPA,TRI,BPAT,206278
+10/31/2018 17:11,,Columbia-Rocky Ford-Larson No 1 230kV line,230.0,L,T,34.90,still out,Plan,Normally Out,BPA,WEN,GCPD,208343
+10/31/2018 17:11,,Rocky Ford tap to Columbia-Rocky Ford-Larson No 1 230kV line,230.0,T, ,,still out,Plan,Normally Out,BPA,WEN,GCPD,208343
+04/18/2019 23:55,,East Omak-Oroville No 1 115kV line,115.0,L,O,39.01,still out,Plan,Normally Out,BPA,WEN,BPAT,209985
+04/18/2019 23:55,,Pinecreek tap to East Omak-Oroville No 1 115kV line,115.0,T, ,0.05,still out,Plan,Normally Out,BPA,WEN,BPAT,209985
+11/07/2019 23:57,,B-352 Tie tap to East Omak-Oroville No 1 115kV line,115.0,T, ,,still out,Plan,Normally Out,BPA,WEN,BPAT,212738
+11/07/2019 23:57,,East Omak-Oroville No 1 115kV line,115.0,L,O,39.01,still out,Plan,Normally Out,BPA,WEN,BPAT,212738
+10/19/2020 07:10,,Canal-Second Lift No 2 34.5kV line,34.5,L,T,1.00,still out,Plan,Normally Out,BPA,IDF,,216397
+10/19/2020 07:10,,Jackson tap to Canal-Second Lift No 2 34.5kV line,34.5,T, ,5.50,still out,Plan,Normally Out,BPA,IDF,,216397
+10/22/2020 13:17,,Canal-Second Lift No 1 34.5kV line,34.5,L,G,1.00,still out,Plan,Normally Out,BPA,IDF,,216448
+10/22/2020 13:17,,Newcomb-Second Lift section of Canal-Second Lift No 1 34.5kV line,34.5,S, ,5.20,still out,Plan,Normally Out,BPA,IDF,,216448
+10/27/2020 07:49,,Ice Harbor-Franklin No 2 115kV line,115.0,L,O,9.07,still out,Plan,Normally Out,BPA,TRI,BPAT,216522
+10/27/2020 07:49,,Martindale tap to Ice Harbor-Franklin No 2 115kV line,115.0,T, ,0.10,still out,Plan,Normally Out,BPA,TRI,BPAT,216522
+12/31/2020 18:27,,Paul-Centralia Thermal PH No 1 500kV line,500.0,L, ,0.78,still out,Plan,Construction,Foreign,OLY,TAUC,217071
+01/05/2021 06:52,,Gem State-York Road section of Westside-Sugar Mill No 1 161kV line,161.0,S, ,3.00,still out,Plan,Normally Out,Foreign,IDF,PAC,217111
+01/05/2021 06:52,,Westside-Sugar Mill No 1 161kV line,161.0,L,G,12.50,still out,Plan,Normally Out,Foreign,IDF,PAC,217111
+01/05/2021 08:47,,McNary-Badger Canyon No 1 115kV line,115.0,L,T,28.40,still out,Plan,Normally Out,BPA,TRI,BPAT,217134
+01/05/2021 08:47,,Plymouth tap to McNary-Badger Canyon No 1 115kV line,115.0,T, ,0.05,still out,Plan,Normally Out,BPA,TRI,BPAT,217134
+01/05/2021 15:28,,First Street-Stevens Drive section of White Bluffs-Richland No 1 115kV line,115.0,S, ,2.68,still out,Plan,Normally Out,BPA,TRI,BPAT,217128
+01/05/2021 15:28,,White Bluffs-Richland No 1 115kV line,115.0,L,G,11.02,still out,Plan,Normally Out,BPA,TRI,BPAT,217128
+07/15/2021 10:53,,Franklin-Badger Canyon No 2 115kV line,115.0,L,O,13.35,still out,Plan,Normally Out,BPA,TRI,BPAT,219198
+07/15/2021 10:53,,Hedges tap to Franklin-Badger Canyon No 2 115kV line,115.0,T, ,0.33,still out,Plan,Normally Out,BPA,TRI,BPAT,219198
+08/01/2021 15:20,,B-389 Tie tap to Eugene-Alderwood No 1 115kV line,115.0,T, ,9.27,still out,Plan,Normally Out,BPA,EUG,BPAT,219408
+08/01/2021 15:20,,Eugene-Alderwood No 1 115kV line,115.0,L,O,18.17,still out,Plan,Normally Out,BPA,EUG,BPAT,219408
+08/01/2021 15:20,,Albany-Eugene No 1 115kV line,115.0,L,O,39.80,still out,Plan,Normally Out,BPA,EUG,BPAT,219409
+08/01/2021 15:20,,B-389 Tie tap to Albany-Eugene No 1 115kV line,115.0,T, ,9.27,still out,Plan,Normally Out,BPA,EUG,BPAT,219409
+08/02/2021 14:27,,Chemawa-Salem Alumina No 1 115kV line,115.0,L,T,3.30,still out,Plan,Normally Out,BPA,SAL,BPAT,219447
+08/02/2021 14:27,,Market tap to Chemawa-Salem Alumina No 1 115kV line,115.0,T, ,5.00,still out,Plan,Normally Out,BPA,SAL,BPAT,219447
+08/04/2021 08:55,,Addy-Cusick No 1 230kV line,230.0,L, ,25.77,still out,Plan,Normally Out,BPA,SPK,BPAT,219500
+08/23/2021 02:07,,Bonneville PH 1-North Camas No 1 115kV line,115.0,L,O,22.12,still out,Plan,Normally Out,BPA,LGV,BPAT,219717
+08/23/2021 02:07,,Underwood tap to Bonneville PH 1-North Camas No 1 115kV line,115.0,T, ,25.00,still out,Plan,Normally Out,BPA,LGV TDA,BPAT,219717
+10/13/2021 13:07,,Brasada-Harney No 1 115kV line,115.0,L,T,112.85,still out,Plan,Normally Out,BPA,RED,BPAT,220373
+10/13/2021 13:07,,Christmas Valley tap to Brasada-Harney No 1 115kV line,115.0,T, ,31.20,still out,Plan,Normally Out,BPA,RED,BPAT,220373
+10/14/2021 16:38,,Chenoweth-Goldendale No 1 115kV line,115.0,L,G,24.08,still out,Plan,Normally Out,BPA,TDA,BPAT,220379
+10/14/2021 16:38,,Spearfish-E. E. Clouse section of Chenoweth-Goldendale No 1 115kV line,115.0,S, ,20.17,still out,Plan,Normally Out,BPA,TDA,BPAT,220379
+12/02/2021 13:44,,Ely-Highlands section of Franklin-Badger Canyon No 2 115kV line,115.0,S, ,1.98,still out,Plan,Normally Out,BPA,TRI,BPAT,220942
+12/02/2021 13:44,,Franklin-Badger Canyon No 2 115kV line,115.0,L,G,13.35,still out,Plan,Normally Out,BPA,TRI,BPAT,220942
+12/07/2021 19:26,,Albany-Eugene No 1 115kV line,115.0,L,G,39.80,still out,Plan,Normally Out,BPA,EUG,BPAT,220980
+12/07/2021 19:26,,Halsey Mill-Harrisburg section of Albany-Eugene No 1 115kV line,115.0,S, ,5.53,still out,Plan,Normally Out,BPA,EUG,BPAT,220980
+03/06/2022 17:46,,Vansycle-Mission section of Walla Walla-Pendleton No 1 69kV line,69.0,S, ,13.40,still out,Plan,Normally Out,BPA,TRI,BPAT,221802
+03/06/2022 17:46,,Walla Walla-Pendleton No 1 69kV line,69.0,L,O,38.93,still out,Plan,Normally Out,BPA,TRI,BPAT,221802
+03/07/2022 16:47,,Alvey-Martin Creek No 1 115kV line,115.0,L,G,22.51,still out,Plan,Normally Out,BPA,EUG,PAC,221815
+03/07/2022 16:47,,Village Green-Dorena section of Alvey-Martin Creek No 1 115kV line,115.0,S, ,1.89,still out,Plan,Normally Out,BPA,EUG,PAC,221815
+03/08/2022 13:16,,Benton-Scooteney No 1 115kV line,115.0,L,G,20.32,still out,Plan,Normally Out,BPA,TRI,BPAT,221854
+03/08/2022 13:16,,Connell-Scooteney section of Benton-Scooteney No 1 115kV line,115.0,S, ,1.57,still out,Plan,Normally Out,BPA,TRI,BPAT,221854
 04/06/2022 11:13,,Ostrander-Troutdale No 1 500kV line,500.0,L, ,23.82,still out,Auto,Forced (Configuration),BPA,LGV,BPAT,221935
 12/23/2022 04:25,01/20/2023 20:30,Novelty Hill-Klahanie section of Sammamish-Maple Valley No 1 230kV line,230.0,S, ,8.49,41285,Auto,Tree Blown,Foreign,COV,PSE,223406
 12/23/2022 04:25,01/20/2023 20:30,Sammamish-Maple Valley No 1 230kV line,230.0,L,G,32.09,41285,Auto,Tree Blown,Foreign,COV,PSE,223406
@@ -75,7 +137,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 01/10/2023 09:06,01/10/2023 09:06,Elmo-Kerr section of Kalispell-Kerr No 1 115kV line,115.0,S,G,12.80,0,Auto,Unknown,BPA,KAL,BPAT,223579
 01/10/2023 09:06,01/10/2023 09:06,Kalispell-Elmo section of Kalispell-Kerr No 1 115kV line,115.0,S,G,28.59,0,Auto,Unknown,BPA,KAL,BPAT,223579
 01/10/2023 09:06,01/10/2023 09:06,Kalispell-Kerr No 1 115kV line,115.0,L, ,41.39,0,Auto,Unknown,BPA,KAL,BPAT,223579
-01/10/2023 13:37,01/10/2023 15:49,Rogue-Gold Beach No 2 115kV line,115.0,L, ,5.49,132,Auto,Unknown,BPA,EUG,BPAT,223581
+01/10/2023 13:37,01/10/2023 15:49,Rogue-Gold Beach No 2 115kV line,115.0,L, ,5.49,132,Auto,Tree Blown,BPA,EUG,BPAT,223581
 01/12/2023 11:49,01/12/2023 13:32,Goshen-Drummond No 1 161kV line,161.0,L, ,72.75,103,Auto,Forced (Configuration),BPA,IDF,BPAT,223583
 01/12/2023 23:05,01/12/2023 23:05,Elmo tap to Kalispell-Kerr No 1 115kV line,115.0,T,G,0.10,0,Auto,Unknown,BPA,KAL,BPAT,223586
 01/12/2023 23:05,01/12/2023 23:05,Elmo-Kerr section of Kalispell-Kerr No 1 115kV line,115.0,S,G,12.80,0,Auto,Unknown,BPA,KAL,BPAT,223586
@@ -116,7 +178,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 02/10/2023 22:12,02/10/2023 22:12,Ancient Lake-Wanapum section of Columbia-Wanapum No 2 230kV line,230.0,S,G,19.70,0,Auto,Weather,BPA,WEN,GCPD,223824
 02/10/2023 22:12,02/10/2023 22:12,Columbia-Ancient Lake section of Columbia-Wanapum No 2 230kV line,230.0,S,G,11.20,0,Auto,Weather,BPA,WEN,GCPD,223824
 02/10/2023 22:12,02/10/2023 22:12,Columbia-Wanapum No 2 230kV line,230.0,L, ,30.90,0,Auto,Weather,BPA,WEN,GCPD,223824
-02/12/2023 13:16,02/12/2023 13:16,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWMT,223826
+02/12/2023 13:16,02/12/2023 13:16,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWE,223826
 02/12/2023 23:41,02/12/2023 23:41,Burns-Summer Lake section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,110.73,0,Auto,Unknown,Foreign,RED,PAC,223827
 02/12/2023 23:41,02/12/2023 23:41,Hemingway-Burns section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,130.89,0,Auto,Unknown,Foreign,RED,PAC,223827
 02/12/2023 23:41,02/12/2023 23:41,Hemingway-Summer Lake No 1 500kV line,500.0,L, ,241.62,0,Auto,Unknown,Foreign,RED,PAC,223827
@@ -180,7 +242,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 03/04/2023 05:37,03/04/2023 05:37,Holcomb-Naselle No 1 115kV line,115.0,L, ,21.09,0,Auto,Unknown,BPA,OLY LGV,BPAT,224038
 03/04/2023 05:37,03/04/2023 05:37,Holcomb-Oxbow section of Holcomb-Naselle No 1 115kV line,115.0,S,G,1.48,0,Auto,Unknown,BPA,OLY,BPAT,224038
 03/04/2023 05:37,03/04/2023 05:37,Oxbow-Naselle section of Holcomb-Naselle No 1 115kV line,115.0,S,G,19.61,0,Auto,Unknown,BPA,OLY LGV,BPAT,224038
-03/06/2023 13:07,03/06/2023 13:07,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224041
+03/06/2023 13:07,03/06/2023 13:07,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224041
 03/09/2023 16:51,03/09/2023 16:51,Goose Lake tap to Grand Coulee-Okanogan No 2 115kV line,115.0,T,G,0.10,0,Auto,Unknown,BPA,WEN,BPAT,224043
 03/09/2023 16:51,03/09/2023 16:51,Goose Lake-Okanogan section of Grand Coulee-Okanogan No 2 115kV line,115.0,S,G,20.00,0,Auto,Unknown,BPA,WEN,BPAT,224043
 03/09/2023 16:51,03/09/2023 16:51,Grand Coulee-Keller section of Grand Coulee-Okanogan No 2 115kV line,115.0,S,G,1.25,0,Auto,Unknown,BPA,WEN,BPAT,224043
@@ -218,7 +280,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 03/23/2023 10:31,03/23/2023 11:38,Tillamook-PACW Astoria No 1 115kV line,115.0,L, ,57.70,67,Auto,Unknown,Foreign,SAL,PAC,224096
 03/23/2023 14:45,03/23/2023 15:02,Rock Creek-White Creek 230kV line,230.0,L, ,11.74,17,Auto,Equipment/Miscellaneous,BPA,TDA,KPUD,224075
 03/24/2023 17:56,03/24/2023 17:56,Satsop-Aberdeen No 3 230kV line,230.0,L, ,20.51,0,Auto,Unknown,BPA,OLY,BPAT,224076
-03/26/2023 01:18,03/26/2023 01:18,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWMT,224077
+03/26/2023 01:18,03/26/2023 01:18,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWE,224077
 03/26/2023 19:14,03/26/2023 19:14,Albeni Falls-Priest River AVA section of Albeni Falls-Sand Creek No 1 115kV line,115.0,S,G,4.43,0,Auto,Unknown,BPA,SPK,BPAT,224078
 03/26/2023 19:14,03/26/2023 19:14,Albeni Falls-Sand Creek No 1 115kV line,115.0,L, ,29.67,0,Auto,Unknown,BPA,SPK,BPAT,224078
 03/26/2023 19:14,03/26/2023 19:14,Laclede tap to Albeni Falls-Sand Creek No 1 115kV line,115.0,T,G,0.10,0,Auto,Unknown,BPA,SPK,BPAT,224078
@@ -352,7 +414,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 04/23/2023 11:56,04/23/2023 12:50,Potlatch tap to Shelton-Fairmount No 1 115kV line,115.0,T, ,0.03,54,Auto,Line Material Failure,BPA,OLY,BPAT,224164
 04/23/2023 11:56,04/24/2023 07:49,Shelton-Fairmount No 1 115kV line,115.0,L,G,60.23,1193,Auto,Line Material Failure,BPA,OLY,BPAT,224164
 04/23/2023 11:56,04/24/2023 07:49,Shelton-Potlatch section of Shelton-Fairmount No 1 115kV line,115.0,S, ,13.33,1193,Auto,Line Material Failure,BPA,OLY,BPAT,224164
-04/24/2023 07:42,04/24/2023 07:42,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224168
+04/24/2023 07:42,04/24/2023 07:42,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224168
 04/25/2023 17:25,04/25/2023 17:25,Benton-Saddle Mountain No 1 115kV line,115.0,L, ,29.96,0,Auto,Weather,Foreign,TRI,AVA,224170
 04/26/2023 12:31,04/26/2023 12:31,Albeni Falls-Priest River AVA section of Albeni Falls-Sand Creek No 1 115kV line,115.0,S,G,4.43,0,Auto,Fire,BPA,SPK,BPAT,224171
 04/26/2023 12:31,04/26/2023 12:31,Albeni Falls-Sand Creek No 1 115kV line,115.0,L, ,29.67,0,Auto,Fire,BPA,SPK,BPAT,224171
@@ -366,7 +428,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 04/26/2023 12:31,04/26/2023 12:31,Priest River-Laclede section of Albeni Falls-Sand Creek No 1 115kV line,115.0,S,G,6.28,0,Auto,Fire,BPA,SPK,BPAT,224171
 04/26/2023 12:31,04/26/2023 12:31,Sandpoint tap to Albeni Falls-Sand Creek No 1 115kV line,115.0,T,G,0.10,0,Auto,Fire,BPA,SPK,BPAT,224171
 04/26/2023 12:31,04/26/2023 12:31,Sandpoint-Ponderay section of Albeni Falls-Sand Creek No 1 115kV line,115.0,S,G,6.70,0,Auto,Fire,BPA,SPK,BPAT,224171
-04/27/2023 07:04,04/27/2023 14:32,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,448,Auto,Environmental,Foreign,KAL,NWMT,224180
+04/27/2023 07:04,04/27/2023 14:32,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,448,Auto,Environmental,Foreign,KAL,NWE,224180
 04/27/2023 11:26,04/27/2023 11:26,Lower Monumental-Ashe No 1 500kV line,500.0,L, ,39.58,0,Auto,Weather,BPA,TRI,BPAT,224181
 04/27/2023 12:36,04/27/2023 12:40,Frederickson-South Tacoma No 1 230kV line,230.0,L, ,0.50,4,Auto,Maintenance,BPA,COV,FPWR,224182
 04/29/2023 12:48,04/29/2023 13:05,Alvey PACW-Goshen section of Alvey-Martin Creek No 1 115kV line,115.0,S, ,2.39,17,Auto,Vehicle,Foreign,EUG,PAC,224184
@@ -411,7 +473,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 05/04/2023 10:53,05/04/2023 10:53,Priest River-Laclede section of Albeni Falls-Sand Creek No 1 115kV line,115.0,S, ,6.28,0,Auto,Unknown,BPA,SPK,BPAT,224291
 05/04/2023 10:53,05/04/2023 10:53,Sandpoint tap to Albeni Falls-Sand Creek No 1 115kV line,115.0,T, ,0.10,0,Auto,Unknown,BPA,SPK,BPAT,224291
 05/04/2023 10:53,05/04/2023 10:53,Sandpoint-Ponderay section of Albeni Falls-Sand Creek No 1 115kV line,115.0,S, ,6.70,0,Auto,Unknown,BPA,SPK,BPAT,224291
-05/04/2023 16:51,05/04/2023 16:56,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,5,Auto,Lightning,BPA,KAL,NWMT,224292
+05/04/2023 16:51,05/04/2023 16:56,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,5,Auto,Lightning,BPA,KAL,NWE,224292
 05/05/2023 08:47,05/05/2023 08:47,Colville-Kettle Falls section of Colville-Republic No 1 115kV line,115.0,S,G,13.30,0,Auto,Human Element,Foreign,SPK,BPAT,224293
 05/05/2023 08:47,05/05/2023 08:47,Colville-Republic No 1 115kV line,115.0,L, ,44.47,0,Auto,Human Element,Foreign,SPK,BPAT,224293
 05/05/2023 08:47,05/05/2023 08:47,Kettle Falls-Republic section of Colville-Republic No 1 115kV line,115.0,S,G,31.17,0,Auto,Human Element,Foreign,SPK,BPAT,224293
@@ -571,12 +633,12 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 05/21/2023 01:43,05/21/2023 01:43,Colville-Republic No 1 115kV line,115.0,L, ,44.47,0,Auto,Lightning,BPA,SPK,BPAT,224398
 05/21/2023 01:43,05/21/2023 01:43,Kettle Falls-Republic section of Colville-Republic No 1 115kV line,115.0,S,G,31.17,0,Auto,Lightning,BPA,SPK,BPAT,224398
 05/21/2023 03:06,05/21/2023 03:06,Addy-AVA Gifford No 1 115kV line,115.0,L, ,20.70,0,Auto,Lightning,BPA,SPK,AVA,224402
-05/21/2023 05:10,05/21/2023 05:10,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWMT,224403
+05/21/2023 05:10,05/21/2023 05:10,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWE,224403
 05/21/2023 05:21,05/21/2023 05:21,Cusick-Boundary section of Usk-Boundary No 1 230kV line,230.0,S,G,48.18,0,Auto,Lightning,BPA,SPK,BPAT,224404
 05/21/2023 05:21,05/21/2023 05:21,Usk-Boundary No 1 230kV line,230.0,L, ,55.04,0,Auto,Lightning,BPA,SPK,BPAT,224404
 05/21/2023 05:21,05/21/2023 05:21,Usk-Cusick section of Usk-Boundary No 1 230kV line,230.0,S,G,6.86,0,Auto,Lightning,BPA,SPK,BPAT,224404
 05/21/2023 13:17,05/21/2023 13:24,Garrison-Anaconda No 1 230kV line,230.0,L, ,31.31,7,Auto,Lightning,Foreign,KAL,,224406
-05/21/2023 13:17,05/21/2023 13:25,Garrison-NWE Mill Creek No 1 230kV line,230.0,L, ,30.40,8,Auto,Lightning,Foreign,KAL,NWMT,224407
+05/21/2023 13:17,05/21/2023 13:25,Garrison-NWE Mill Creek No 1 230kV line,230.0,L, ,30.40,8,Auto,Lightning,Foreign,KAL,NWE,224407
 05/21/2023 15:21,05/21/2023 15:21,Cusick-Boundary section of Usk-Boundary No 1 230kV line,230.0,S,G,48.18,0,Auto,Lightning,BPA,SPK,BPAT,224408
 05/21/2023 15:21,05/21/2023 15:21,Usk-Boundary No 1 230kV line,230.0,L, ,55.04,0,Auto,Lightning,BPA,SPK,BPAT,224408
 05/21/2023 15:21,05/21/2023 15:21,Usk-Cusick section of Usk-Boundary No 1 230kV line,230.0,S,G,6.86,0,Auto,Lightning,BPA,SPK,BPAT,224408
@@ -644,7 +706,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 05/26/2023 17:33,05/26/2023 17:33,Milan-Deer Park section of Bell-Addy No 1 115kV line,115.0,S,G,1.96,0,Auto,Lightning,BPA,SPK,BPAT,224459
 05/26/2023 17:33,05/26/2023 17:33,Tum Tum tap to Bell-Addy No 1 115kV line,115.0,T,G,10.50,0,Auto,Lightning,BPA,SPK,BPAT,224459
 05/26/2023 17:33,05/26/2023 17:33,Tum Tum-Milan section of Bell-Addy No 1 115kV line,115.0,S,G,5.72,0,Auto,Lightning,BPA,SPK,BPAT,224459
-05/27/2023 01:00,05/27/2023 01:00,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,BPA,KAL,NWMT,224469
+05/27/2023 01:00,05/27/2023 01:00,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,BPA,KAL,NWE,224469
 05/27/2023 07:39,05/27/2023 07:39,North Camas-Oak Park No 1 115kV line,115.0,L, ,1.65,0,Auto,Foreign Object,Unknown,LGV,BPAT,224470
 05/27/2023 15:02,05/27/2023 15:02,Columbia-Grand Coulee No 1 230kV line,230.0,L, ,72.61,0,Auto,Lightning,BPA,WEN,BPAT,224471
 05/27/2023 16:40,05/27/2023 16:40,Olympia-Grand Coulee No 1 287kV line,287.0,L, ,229.12,0,Auto,Lightning,BPA,OLY COV WEN,BPAT,224472
@@ -706,8 +768,8 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 06/06/2023 10:59,06/06/2023 13:43,Hooper Springs-Tincup 115kV line,115.0,L, ,48.36,164,Auto,Unknown,Unknown,IDF,LVE,224518
 06/06/2023 10:59,06/06/2023 13:43,Lanes Creek-Tincup section of Hooper Springs-Tincup 115kV line,115.0,S,G,,164,Auto,Unknown,Unknown,IDF,LVE,224518
 06/07/2023 22:23,06/07/2023 22:23,Garrison-Taft No 2 500kV line,500.0,L, ,159.38,0,Auto,Lightning,BPA,KAL SPK,BPAT,224519
-06/08/2023 03:53,06/08/2023 03:53,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Lightning,Foreign,KAL,NWMT,224520
-06/08/2023 08:14,06/09/2023 17:14,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,1980,Auto,Lightning,BPA,KAL,NWMT,224521
+06/08/2023 03:53,06/08/2023 03:53,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Lightning,Foreign,KAL,NWE,224520
+06/08/2023 08:14,06/09/2023 17:14,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,1980,Auto,Lightning,BPA,KAL,NWE,224521
 06/08/2023 11:52,06/08/2023 11:52,Rattlesnake-Garrison No 1 230kV line,230.0,L, ,60.94,0,Auto,Lightning,BPA,KAL,BPAT,224522
 06/08/2023 15:19,06/08/2023 15:30,Camp-Trout Creek section of Noxon-Hot Springs No 1 230kV line,230.0,S,G,10.90,11,Auto,Lightning,BPA,KAL,BPAT,224523
 06/08/2023 15:19,06/08/2023 15:30,Noxon-Camp section of Noxon-Hot Springs No 1 230kV line,230.0,S,G,0.20,11,Auto,Lightning,BPA,KAL,BPAT,224523
@@ -908,9 +970,12 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 07/03/2023 03:51,07/03/2023 03:51,Bell-Boundary No 3 230kV line,230.0,L,T,108.07,0,Auto,Contamination,BPA,SPK,BPAT,224672
 07/04/2023 01:40,07/04/2023 01:40,Foster tap to Green Peter-Lebanon No 1 115kV line,115.0,T,G,3.77,0,Auto,Unknown,Unknown,EUG,BPAT,224673
 07/04/2023 01:40,07/04/2023 01:40,Foster tap-Lebanon section of Green Peter-Lebanon No 1 115kV line,115.0,S,G,11.78,0,Auto,Unknown,Unknown,EUG,BPAT,224673
+07/04/2023 01:40,07/04/2023 01:40,Foster tap-North Butte section of Foster tap to Green Peter-Lebanon No 1 115kV line,115.0,TS,G,3.43,0,Auto,Unknown,Unknown,EUG,BPAT,224673
 07/04/2023 01:40,07/04/2023 01:40,Green Peter-Foster tap section of Green Peter-Lebanon No 1 115kV line,115.0,S,G,6.31,0,Auto,Unknown,Unknown,EUG,BPAT,224673
 07/04/2023 01:40,07/04/2023 01:40,Green Peter-Lebanon No 1 115kV line,115.0,L, ,18.09,0,Auto,Unknown,Unknown,EUG,BPAT,224673
-07/06/2023 03:54,07/06/2023 03:54,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Unknown,KAL,NWMT,224676
+07/04/2023 01:40,07/04/2023 01:40,North Butte tap to Foster tap to Green Peter-Lebanon No 1 115kV line,115.0,TT,G,0.05,0,Auto,Unknown,Unknown,EUG,BPAT,224673
+07/04/2023 01:40,07/04/2023 01:40,North Butte-Foster PH section of Foster tap to Green Peter-Lebanon No 1 115kV line,115.0,TS,G,0.34,0,Auto,Unknown,Unknown,EUG,BPAT,224673
+07/06/2023 03:54,07/06/2023 03:54,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Unknown,KAL,NWE,224676
 07/07/2023 11:18,09/22/2023 13:33,Hills Creek-Lookout Point No 1 115kV line,115.0,L,G,24.80,111015,Auto,Construction,BPA,EUG,BPAT,224678
 07/07/2023 11:18,07/07/2023 13:29,Hills Creek-Oakridge section of Hills Creek-Lookout Point No 1 115kV line,115.0,S, ,4.80,131,Auto,Construction,BPA,EUG,BPAT,224678
 07/07/2023 11:18,07/07/2023 13:29,Oakridge tap to Hills Creek-Lookout Point No 1 115kV line,115.0,T, ,0.10,131,Auto,Construction,BPA,EUG,BPAT,224678
@@ -979,7 +1044,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 07/11/2023 07:51,07/11/2023 08:11,Condon-Fossil section of De Moss-Fossil No 1 115kV line,115.0,S, ,18.43,20,Auto,Maintenance,BPA,TDA,BPAT,224717
 07/11/2023 07:51,07/11/2023 08:11,De Moss-Fossil No 1 115kV line,115.0,L,G,52.72,20,Auto,Maintenance,BPA,TDA,BPAT,224717
 07/12/2023 12:24,07/12/2023 12:24,Lower Monumental-Ashe No 1 500kV line,500.0,L, ,39.58,0,Auto,Weather,BPA,TRI,BPAT,224725
-07/14/2023 04:52,07/14/2023 04:52,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224727
+07/14/2023 04:52,07/14/2023 04:52,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224727
 07/14/2023 21:14,07/14/2023 21:14,Burns-Summer Lake section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,110.73,0,Auto,Unknown,Foreign,RED,PAC,224728
 07/14/2023 21:14,07/14/2023 21:14,Hemingway-Burns section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,130.89,0,Auto,Unknown,Foreign,RED,PAC,224728
 07/14/2023 21:14,07/14/2023 21:14,Hemingway-Summer Lake No 1 500kV line,500.0,L, ,241.62,0,Auto,Unknown,Foreign,RED,PAC,224728
@@ -1014,18 +1079,18 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 07/26/2023 08:08,07/26/2023 08:57,Captain Jack-Olinda No 1 500kV line,500.0,L, ,148.86,49,Auto,Unknown,Foreign,RED,TANC,224752
 07/26/2023 09:41,07/26/2023 09:41,Salem-Albany No 1 115kV line,115.0,L, ,23.90,0,Auto,Unknown,BPA,SAL EUG,BPAT,224753
 07/28/2023 04:21,07/28/2023 04:21,Chief Joseph-Monroe No 1 500kV line,500.0,L, ,121.60,0,Auto,Unknown,BPA,WEN SNO,BPAT,224757
-07/28/2023 15:26,07/28/2023 15:26,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Lightning,BPA,KAL,NWMT,224758
-07/28/2023 15:27,07/28/2023 15:27,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Lightning,BPA,KAL,NWMT,224759
-07/28/2023 23:37,07/28/2023 23:37,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224760
+07/28/2023 15:26,07/28/2023 15:26,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Lightning,BPA,KAL,NWE,224758
+07/28/2023 15:27,07/28/2023 15:27,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Lightning,BPA,KAL,NWE,224759
+07/28/2023 23:37,07/28/2023 23:37,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224760
 07/29/2023 11:22,07/29/2023 14:52,Longview-Chehalis No 1&3 230kV line,230.0,L, ,66.07,210,Auto,Tree Cut,BPA,LGV OLY,BPAT,224761
 07/30/2023 00:05,07/30/2023 00:20,Canby tap to Malin-Hilltop No 1 230kV line,230.0,T,G,7.85,15,Auto,Line Material Failure,Foreign,RED,BPAT,224762
 07/30/2023 00:05,07/30/2023 00:20,Canby-Hilltop section of Malin-Hilltop No 1 230kV line,230.0,S,G,18.72,15,Auto,Line Material Failure,Foreign,RED,BPAT,224762
 07/30/2023 00:05,07/30/2023 00:20,Malin-Canby section of Malin-Hilltop No 1 230kV line,230.0,S,G,43.54,15,Auto,Line Material Failure,Foreign,RED,BPAT,224762
 07/30/2023 00:05,07/30/2023 00:20,Malin-Hilltop No 1 230kV line,230.0,L, ,62.26,15,Auto,Line Material Failure,Foreign,RED,BPAT,224762
-07/30/2023 00:12,07/30/2023 00:12,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224764
+07/30/2023 00:12,07/30/2023 00:12,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224764
 07/30/2023 03:46,07/30/2023 03:46,Grand Coulee-Hanford No 1 500kV line,500.0,L, ,96.03,0,Auto,Weather,BPA,WEN TRI,BPAT,224766
 07/30/2023 07:19,07/30/2023 07:19,Bell-Usk No 1 230kV line,230.0,L, ,47.48,0,Auto,Unknown,BPA,SPK,BPAT,224767
-07/31/2023 00:52,07/31/2023 00:52,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224768
+07/31/2023 00:52,07/31/2023 00:52,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224768
 07/31/2023 09:16,07/31/2023 09:16,Cannon Beach-Seaside section of Tillamook-PACW Astoria No 1 115kV line,115.0,S, ,8.60,0,Auto,Unknown,Foreign,SAL,PAC,224769
 07/31/2023 09:16,07/31/2023 09:16,Garibaldi tap to Tillamook-PACW Astoria No 1 115kV line,115.0,T, ,0.10,0,Auto,Unknown,Foreign,SAL,PAC,224769
 07/31/2023 09:16,07/31/2023 09:16,Garibaldi-Mohler section of Tillamook-PACW Astoria No 1 115kV line,115.0,S, ,10.90,0,Auto,Unknown,Foreign,SAL,PAC,224769
@@ -1035,7 +1100,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 07/31/2023 09:16,07/31/2023 09:16,Tillamook-Garibaldi section of Tillamook-PACW Astoria No 1 115kV line,115.0,S, ,8.60,0,Auto,Unknown,Foreign,SAL,PAC,224769
 07/31/2023 09:16,07/31/2023 09:29,Tillamook-PACW Astoria No 1 115kV line,115.0,L,G,57.70,13,Auto,Unknown,Foreign,SAL,PAC,224769
 07/31/2023 09:16,07/31/2023 09:29,Warrenton-PACW Astoria section of Tillamook-PACW Astoria No 1 115kV line,115.0,S, ,2.70,13,Auto,Unknown,Foreign,SAL,PAC,224769
-07/31/2023 14:47,07/31/2023 14:47,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224774
+07/31/2023 14:47,07/31/2023 14:47,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224774
 08/01/2023 15:50,08/01/2023 17:26,Unity-Heyburn No 1 138kV line,138.0,L, ,6.56,96,Auto,Forced (Configuration),BPA,IDF,BPAT,224775
 08/01/2023 15:50,08/01/2023 17:36,East Hills-Unity section of Minidoka PH-Unity No 1 138kV line,138.0,S, ,5.97,106,Auto,Forced (Configuration),BPA,IDF,BPAT,224778
 08/01/2023 15:50,08/01/2023 17:36,Minidoka PH-Unity No 1 138kV line,138.0,L,G,24.91,106,Auto,Forced (Configuration),BPA,IDF,BPAT,224778
@@ -1043,7 +1108,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 08/01/2023 15:50,08/01/2023 17:35,Pacific-West Burley section of Unity-West Burley No 1 138kV line,138.0,S,G,0.81,105,Auto,Lightning,BPA,IDF,BPAT,224779
 08/01/2023 15:50,08/01/2023 17:35,Unity-Pacific section of Unity-West Burley No 1 138kV line,138.0,S,G,6.40,105,Auto,Lightning,BPA,IDF,BPAT,224779
 08/01/2023 15:50,08/01/2023 17:35,Unity-West Burley No 1 138kV line,138.0,L, ,7.21,105,Auto,Lightning,BPA,IDF,BPAT,224779
-08/01/2023 16:57,08/01/2023 16:57,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224781
+08/01/2023 16:57,08/01/2023 16:57,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224781
 08/04/2023 00:26,08/04/2023 00:26,Dworshak-Taft No 1 500kV line,500.0,L, ,90.38,0,Auto,Lightning,BPA,SPK KAL,BPAT,224785
 08/04/2023 17:13,08/07/2023 15:00,Taft-Bell No 1 500kV line,500.0,L, ,96.44,4187,Auto,Fire,BPA,KAL SPK,BPAT,224786
 08/05/2023 18:15,08/05/2023 18:15,Connley Collector tap to LaPine-Fort Rock No 1 115kV line,115.0,T,G,,0,Auto,Lightning,BPA,,BPAT,224787
@@ -1096,13 +1161,13 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 08/07/2023 09:17,08/07/2023 09:25,Bell-Lancaster No 1 230kV line,230.0,L, ,23.52,8,Auto,Lightning,BPA,SPK,BPAT,224825
 08/07/2023 09:46,08/07/2023 21:46,McNary-Roundup No 1 230kV line,230.0,L, ,38.43,720,Auto,Lightning,BPA,TRI,BPAT,224827
 08/07/2023 09:51,08/07/2023 09:55,Grand Coulee-Bell No 5 230kV line,230.0,L, ,83.06,4,Auto,Lightning,BPA,WEN SPK,BPAT,224828
-08/08/2023 01:09,08/08/2023 01:09,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224829
+08/08/2023 01:09,08/08/2023 01:09,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224829
 08/09/2023 01:29,08/09/2023 01:29,Grand Coulee-Bell No 3 230kV line,230.0,L, ,82.92,0,Auto,Unknown,BPA,WEN SPK,BPAT,224830
-08/09/2023 17:45,08/09/2023 17:45,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWMT,224831
-08/09/2023 18:26,08/09/2023 18:26,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Lightning,Foreign,KAL,NWMT,224832
+08/09/2023 17:45,08/09/2023 17:45,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Weather,Foreign,KAL,NWE,224831
+08/09/2023 18:26,08/09/2023 18:26,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Lightning,Foreign,KAL,NWE,224832
 08/10/2023 13:06,08/10/2023 13:06,Alvey PACW-Goshen section of Alvey-Martin Creek No 1 115kV line,115.0,S, ,2.39,0,Auto,"Machinery, Farming",Foreign,EUG,PAC,224834
 08/10/2023 13:06,08/10/2023 13:06,Alvey-Martin Creek No 1 115kV line,115.0,L,G,22.51,0,Auto,"Machinery, Farming",Foreign,EUG,PAC,224834
-08/11/2023 20:45,08/11/2023 20:45,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224835
+08/11/2023 20:45,08/11/2023 20:45,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224835
 08/12/2023 05:41,08/12/2023 05:41,Benton-Saddle Mountain No 1 115kV line,115.0,L, ,29.96,0,Auto,Weather,Foreign,TRI,AVA,224836
 08/12/2023 09:04,08/12/2023 09:04,Murray-Custer No 1 230kV line,230.0,L, ,63.39,0,Auto,Unknown,BPA,SNO,BPAT,224837
 08/12/2023 09:04,08/12/2023 09:04,Murray-Sedro Woolley section of Murray-Custer No 1 230kV line,230.0,S,G,25.67,0,Auto,Unknown,BPA,SNO,BPAT,224837
@@ -1120,12 +1185,12 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 08/13/2023 16:43,08/13/2023 16:43,Riley-Starvation Ridge section of Brasada-Harney No 1 115kV line,115.0,S,G,,0,Auto,Unknown,BPA,RED,BPAT,224838
 08/13/2023 16:43,08/13/2023 16:43,Starvation Ridge tap to Brasada-Harney No 1 115kV line,115.0,T,G,,0,Auto,Unknown,BPA,,BPAT,224838
 08/13/2023 16:43,08/13/2023 16:43,Starvation Ridge-Harney section of Brasada-Harney No 1 115kV line,115.0,S,G,,0,Auto,Unknown,BPA,RED,BPAT,224838
-08/13/2023 22:07,08/13/2023 22:07,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224841
+08/13/2023 22:07,08/13/2023 22:07,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224841
 08/14/2023 02:20,08/14/2023 02:20,Burns-Summer Lake section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,110.73,0,Auto,Unknown,Foreign,RED,PAC,224842
 08/14/2023 02:20,08/14/2023 02:20,Hemingway-Burns section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,130.89,0,Auto,Unknown,Foreign,RED,PAC,224842
 08/14/2023 02:20,08/14/2023 02:20,Hemingway-Summer Lake No 1 500kV line,500.0,L, ,241.62,0,Auto,Unknown,Foreign,RED,PAC,224842
-08/14/2023 20:43,08/14/2023 20:43,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224843
-08/14/2023 22:25,08/14/2023 22:25,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224844
+08/14/2023 20:43,08/14/2023 20:43,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224843
+08/14/2023 22:25,08/14/2023 22:25,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224844
 08/15/2023 19:12,08/15/2023 19:12,Boardman-Ione No 1 69kV line,69.0,L, ,30.09,0,Auto,Unknown,BPA,TRI,,224858
 08/16/2023 14:07,08/16/2023 14:20,Hilyard-Monroe (EWEB) 115kV line,115.0,L, ,1.22,13,Auto,Maintenance,Foreign,EUG,EWEB,224860
 08/16/2023 14:07,08/16/2023 14:20,Jefferson-Monroe (EWEB) 115kV line,115.0,L, ,3.03,13,Auto,Maintenance,Foreign,EUG,EWEB,224861
@@ -1200,22 +1265,22 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 09/07/2023 08:43,09/07/2023 08:43,Ancient Lake-Wanapum section of Columbia-Wanapum No 2 230kV line,230.0,S,G,19.70,0,Auto,Unknown,Foreign,WEN,GCPD,224931
 09/07/2023 08:43,09/07/2023 08:43,Columbia-Ancient Lake section of Columbia-Wanapum No 2 230kV line,230.0,S,G,11.20,0,Auto,Unknown,Foreign,WEN,GCPD,224931
 09/07/2023 08:43,09/07/2023 08:43,Columbia-Wanapum No 2 230kV line,230.0,L, ,30.90,0,Auto,Unknown,Foreign,WEN,GCPD,224931
-09/07/2023 18:33,09/07/2023 18:33,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224932
+09/07/2023 18:33,09/07/2023 18:33,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224932
 09/07/2023 23:48,09/07/2023 23:48,Bell-Usk No 1 230kV line,230.0,L, ,47.48,0,Auto,Unknown,BPA,SPK,BPAT,224933
-09/08/2023 20:53,09/08/2023 20:53,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224935
+09/08/2023 20:53,09/08/2023 20:53,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224935
 09/09/2023 12:43,09/09/2023 15:34,Usk-Pine Street 115kV line,115.0,L, ,15.09,171,Auto,Tree,Foreign,SPK,POPD,224936
 09/09/2023 17:20,09/09/2023 17:20,Connley Collector tap to LaPine-Fort Rock No 1 115kV line,115.0,T,G,,0,Auto,Unknown,Foreign,,BPAT,224937
 09/09/2023 17:20,09/09/2023 17:20,LaPine-Fort Rock No 1 115kV line,115.0,L, ,47.03,0,Auto,Unknown,Foreign,RED,BPAT,224937
 09/09/2023 17:20,09/09/2023 17:20,Rock Garden tap to Connley Collector tap to LaPine-Fort Rock No 1 115kV line,115.0,TT, ,7.00,0,Auto,Unknown,Foreign,,BPAT,224937
-09/10/2023 12:25,09/10/2023 12:25,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224939
+09/10/2023 12:25,09/10/2023 12:25,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224939
 09/11/2023 04:54,09/11/2023 04:54,Clymer tap to Ellensburg-Moxee No 1 115kV line,115.0,T,G,0.02,0,Auto,Weather,BPA,WEN TRI,BPAT,224940
 09/11/2023 04:54,09/11/2023 04:54,Clymer-Moxee section of Ellensburg-Moxee No 1 115kV line,115.0,S,G,29.43,0,Auto,Weather,BPA,WEN TRI,BPAT,224940
 09/11/2023 04:54,09/11/2023 04:54,Ellensburg-Clymer section of Ellensburg-Moxee No 1 115kV line,115.0,S,G,1.38,0,Auto,Weather,BPA,WEN,BPAT,224940
 09/11/2023 04:54,09/11/2023 04:54,Ellensburg-Moxee No 1 115kV line,115.0,L, ,30.81,0,Auto,Weather,BPA,WEN TRI,BPAT,224940
 09/12/2023 15:16,09/12/2023 15:46,Moxee-Union Gap No 1 115kV line,115.0,L, ,6.50,30,Auto,Unknown,Foreign,TRI,PAC,224942
 09/13/2023 05:53,09/13/2023 05:53,Lower Monumental-Hanford No 1 500kV line,500.0,L, ,53.47,0,Auto,Weather,BPA,TRI,BPAT,224943
-09/13/2023 10:21,09/13/2023 10:21,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,224944
-09/16/2023 07:05,09/16/2023 07:05,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,BPA,KAL,NWMT,224945
+09/13/2023 10:21,09/13/2023 10:21,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,224944
+09/16/2023 07:05,09/16/2023 07:05,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,BPA,KAL,NWE,224945
 09/17/2023 05:35,09/17/2023 05:35,Columbia-Grand Coulee No 3 230kV line,230.0,L, ,72.94,0,Auto,Unknown,BPA,WEN,BPAT,224946
 09/17/2023 07:23,09/17/2023 09:45,Maupin-Redmond No 1 230kV line,230.0,L, ,68.07,142,Auto,Unknown,BPA,RED,BPAT,224947
 09/17/2023 18:04,09/17/2023 23:36,Bandon-Rogue No 1 115kV line,115.0,L,G,46.00,332,Auto,Terminal Equipment Failure,Foreign,EUG,BPAT,224948
@@ -1309,21 +1374,21 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 10/01/2023 01:09,10/01/2023 01:09,Heyburn-Hay Mill section of Heyburn-Adelaide No 1 138kV line,138.0,S,G,4.51,0,Auto,Weather,BPA,IDF,BPAT,225005
 10/01/2023 01:09,10/01/2023 01:09,Roe's Corner tap to Heyburn-Adelaide No 1 138kV line,138.0,T,G,3.11,0,Auto,Weather,BPA,IDF,BPAT,225005
 10/01/2023 01:09,10/01/2023 01:09,Roe's Corner-Adelaide section of Heyburn-Adelaide No 1 138kV line,138.0,S,G,2.92,0,Auto,Weather,BPA,IDF,BPAT,225005
-10/02/2023 20:38,10/03/2023 07:58,Kitsap-Bangor No 1 115kV line,115.0,L, ,14.02,680,Auto,Tree,BPA,OLY,BPAT,225011
+10/02/2023 20:38,10/03/2023 07:58,Kitsap-Bangor No 1 115kV line,115.0,L, ,14.02,680,Auto,Tree Blown,BPA,OLY,BPAT,225011
 10/05/2023 00:40,10/05/2023 00:59,Celilo-Sylmar Pole No 4 1000kV line,1000.0,L, ,844.15,19,Auto,Forced (Configuration),Foreign,TDA RED,LDWP,225013
 10/05/2023 08:36,10/05/2023 09:12,Hopkins Ridge-Tucannon River No 1 115kV line,115.0,L, ,6.90,36,Auto,Maintenance,BPA,SPK,PSE,225014
 10/05/2023 08:56,10/05/2023 09:54,Klondike Schoolhouse-John Day No 1 230kV line,230.0,L, ,11.73,58,Auto,Human Element,BPA,RED TDA,BPAT,225015
 10/05/2023 14:47,10/05/2023 14:55,Bellingham-PSE Bellingham No 2 115kV line,115.0,L, ,3.60,8,Auto,Maintenance,BPA,SNO,PSE,225023
 10/05/2023 14:47,10/05/2023 14:55,Bellingham-PSE Bellingham No 3 115kV line,115.0,L, ,3.60,8,Auto,Maintenance,BPA,SNO,PSE,225024
 10/05/2023 14:47,10/05/2023 14:55,Bellingham-Whatcom No 1 115kV line,115.0,L, ,20.60,8,Auto,Maintenance,BPA,SNO,PSE,225025
-10/06/2023 01:46,10/06/2023 01:46,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWMT,225017
-10/06/2023 16:31,10/06/2023 16:32,Blue River tap to Cougar-Holden Creek No 1 115kV line,115.0,T, ,0.32,1,Auto,Tree,BPA,EUG,BPAT,225018
-10/06/2023 16:31,10/06/2023 16:32,Blue River-Holden Creek section of Cougar-Holden Creek No 1 115kV line,115.0,S, ,21.51,1,Auto,Tree,BPA,EUG,BPAT,225018
-10/06/2023 16:31,10/07/2023 16:42,Carmen Smith tap to Cougar-Holden Creek No 1 115kV line,115.0,T, ,18.00,1451,Auto,Tree,BPA,EUG,BPAT,225018
-10/06/2023 16:31,10/06/2023 21:22,Carmen Smith-Blue River section of Cougar-Holden Creek No 1 115kV line,115.0,S, ,3.63,291,Auto,Tree,BPA,EUG,BPAT,225018
-10/06/2023 16:31,10/06/2023 21:22,Cougar-Carmen Smith section of Cougar-Holden Creek No 1 115kV line,115.0,S, ,2.12,291,Auto,Tree,BPA,EUG,BPAT,225018
-10/06/2023 16:31,10/06/2023 21:22,Cougar-Holden Creek No 1 115kV line,115.0,L,G,27.26,291,Auto,Tree,BPA,EUG,BPAT,225018
-10/08/2023 05:30,10/08/2023 05:30,Ashe-Marion No 2 500kV line,500.0,L, ,224.01,0,Auto,Weather,BPA,TRI TDA RED SAL,BPAT,225022
+10/06/2023 01:46,10/06/2023 01:46,Broadview-Garrison No 2 500kV line,500.0,L, ,224.71,0,Auto,Unknown,Foreign,KAL,NWE,225017
+10/06/2023 16:31,10/06/2023 16:32,Blue River tap to Cougar-Holden Creek No 1 115kV line,115.0,T, ,0.32,1,Auto,Tree Blown,BPA,EUG,BPAT,225018
+10/06/2023 16:31,10/06/2023 16:32,Blue River-Holden Creek section of Cougar-Holden Creek No 1 115kV line,115.0,S, ,21.51,1,Auto,Tree Blown,BPA,EUG,BPAT,225018
+10/06/2023 16:31,10/07/2023 16:42,Carmen Smith tap to Cougar-Holden Creek No 1 115kV line,115.0,T, ,18.00,1451,Auto,Tree Blown,BPA,EUG,BPAT,225018
+10/06/2023 16:31,10/06/2023 21:22,Carmen Smith-Blue River section of Cougar-Holden Creek No 1 115kV line,115.0,S, ,3.63,291,Auto,Tree Blown,BPA,EUG,BPAT,225018
+10/06/2023 16:31,10/06/2023 21:22,Cougar-Carmen Smith section of Cougar-Holden Creek No 1 115kV line,115.0,S, ,2.12,291,Auto,Tree Blown,BPA,EUG,BPAT,225018
+10/06/2023 16:31,10/06/2023 21:22,Cougar-Holden Creek No 1 115kV line,115.0,L,G,27.26,291,Auto,Tree Blown,BPA,EUG,BPAT,225018
+10/08/2023 05:30,10/08/2023 05:30,Ashe-Marion No 2 500kV line,500.0,L, ,224.01,0,Auto,Lightning,BPA,TRI TDA RED SAL,BPAT,225022
 10/11/2023 15:56,10/11/2023 16:38,Grizzly-Ponderosa section of Grizzly-Summer Lake No 1 500kV line,500.0,S, ,18.26,42,Auto,Terminal Equipment Failure,BPA,RED,BPAT,225027
 10/11/2023 15:56,10/11/2023 16:38,Grizzly-Summer Lake No 1 500kV line,500.0,L,G,103.37,42,Auto,Terminal Equipment Failure,BPA,RED,BPAT,225027
 10/14/2023 00:23,10/14/2023 00:23,Celilo-Sylmar Pole No 3 1000kV line,1000.0,L, ,844.15,0,Auto,Unknown,Foreign,TDA RED,LDWP,225029
@@ -1363,7 +1428,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 10/19/2023 07:15,10/19/2023 07:15,Morrison-Bandon section of Fairview-Bandon No 1 115kV line,115.0,S,G,2.31,0,Auto,Unknown,BPA,EUG,BPAT,225049
 10/19/2023 07:15,10/19/2023 07:15,Norway tap to Fairview-Bandon No 1 115kV line,115.0,T,G,0.01,0,Auto,Unknown,BPA,EUG,BPAT,225049
 10/19/2023 07:15,10/19/2023 07:15,Norway-Morrison section of Fairview-Bandon No 1 115kV line,115.0,S,G,10.26,0,Auto,Unknown,BPA,EUG,BPAT,225049
-10/19/2023 17:27,10/19/2023 18:15,Lane-Wendson No 2 230kV line,230.0,L, ,41.03,48,Auto,Equipment/Miscellaneous,BPA,EUG,BPAT,225052
+10/19/2023 17:27,10/19/2023 18:15,Lane-Wendson No 2 230kV line,230.0,L, ,41.03,48,Auto,Terminal Equipment Failure,BPA,EUG,BPAT,225052
 10/19/2023 20:43,10/21/2023 12:15,Big Eddy-Parkdale section of Big Eddy-Troutdale No 1 230kV line,230.0,S, ,23.44,2372,Auto,Aircraft,BPA,TDA,BPAT,225054
 10/19/2023 20:43,10/21/2023 12:15,Big Eddy-Troutdale No 1 230kV line,230.0,L,G,77.43,2372,Auto,Aircraft,BPA,TDA LGV,BPAT,225054
 10/19/2023 20:43,10/19/2023 23:26,Parkdale-Troutdale section of Big Eddy-Troutdale No 1 230kV line,230.0,S, ,53.99,163,Auto,Aircraft,BPA,TDA LGV,BPAT,225054
@@ -1446,7 +1511,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 11/11/2023 01:46,11/11/2023 01:46,Fidalgo-Lopez Island 3&5 No 5 69kV line,69.0,L, ,8.49,0,Auto,Unknown,Foreign,SNO,BPAT,225116
 11/11/2023 01:46,11/11/2023 01:46,Fidalgo-Lopez Island No 4 115kV line,115.0,L, ,8.48,0,Auto,Weather,Foreign,SNO,BPAT,225119
 11/12/2023 08:55,11/12/2023 09:00,Lancaster-Noxon No 1 230kV line,230.0,L, ,72.72,5,Auto,Wind,BPA,SPK KAL,BPAT,225120
-11/14/2023 10:05,11/14/2023 10:15,Noxon-Libby No 1 230kV line,230.0,L, ,70.17,10,Auto,Unknown,BPA,KAL,BPAT,225121
+11/14/2023 10:05,11/14/2023 10:15,Noxon-Libby No 1 230kV line,230.0,L, ,70.17,10,Auto,Substation Operations,BPA,KAL,BPAT,225121
 11/15/2023 06:33,11/15/2023 06:33,Best Lane tap to Brasada-Harney No 1 115kV line,115.0,T,G,,0,Auto,Unknown,BPA,,BPAT,225122
 11/15/2023 06:33,11/15/2023 06:33,Best Lane-Riley section of Brasada-Harney No 1 115kV line,115.0,S,G,,0,Auto,Unknown,BPA,RED,BPAT,225122
 11/15/2023 06:33,11/15/2023 06:33,Brasada-Christmas Valley section of Brasada-Harney No 1 115kV line,115.0,S,G,42.20,0,Auto,Unknown,BPA,RED,BPAT,225122
@@ -1483,10 +1548,10 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 11/18/2023 01:22,11/18/2023 01:22,Condon-Fossil section of De Moss-Fossil No 1 115kV line,115.0,S,G,18.43,0,Auto,Unknown,BPA,TDA,BPAT,225141
 11/18/2023 01:22,11/18/2023 01:22,De Moss-Condon Wind section of De Moss-Fossil No 1 115kV line,115.0,S,G,32.81,0,Auto,Unknown,BPA,TDA,BPAT,225141
 11/18/2023 01:22,11/18/2023 01:22,De Moss-Fossil No 1 115kV line,115.0,L, ,52.72,0,Auto,Unknown,BPA,TDA,BPAT,225141
-11/19/2023 14:48,11/19/2023 14:48,Swan Valley-Targhee tap section of Swan Valley-Teton No 1 115kV line,115.0,S,G,17.48,0,Auto,Unknown,BPA,IDF,BPAT,225145
-11/19/2023 14:48,11/19/2023 14:48,Swan Valley-Teton No 1 115kV line,115.0,L, ,35.47,0,Auto,Unknown,BPA,IDF,BPAT,225145
-11/19/2023 14:48,11/19/2023 14:48,Targhee tap to Swan Valley-Teton No 1 115kV line,115.0,T,G,10.94,0,Auto,Unknown,BPA,IDF,BPAT,225145
-11/19/2023 14:48,11/19/2023 14:48,Targhee tap-Teton section of Swan Valley-Teton No 1 115kV line,115.0,S,G,17.99,0,Auto,Unknown,BPA,IDF,BPAT,225145
+11/19/2023 14:48,11/19/2023 14:48,Swan Valley-Targhee tap section of Swan Valley-Teton No 1 115kV line,115.0,S,G,17.48,0,Auto,Ice,BPA,IDF,BPAT,225145
+11/19/2023 14:48,11/19/2023 14:48,Swan Valley-Teton No 1 115kV line,115.0,L, ,35.47,0,Auto,Ice,BPA,IDF,BPAT,225145
+11/19/2023 14:48,11/19/2023 14:48,Targhee tap to Swan Valley-Teton No 1 115kV line,115.0,T,G,10.94,0,Auto,Ice,BPA,IDF,BPAT,225145
+11/19/2023 14:48,11/19/2023 14:48,Targhee tap-Teton section of Swan Valley-Teton No 1 115kV line,115.0,S,G,17.99,0,Auto,Ice,BPA,IDF,BPAT,225145
 11/19/2023 14:48,11/19/2023 14:48,Targhee-Drummond No 1 115kV line,115.0,L, ,26.80,0,Auto,Unknown,BPA,IDF,BPAT,225150
 11/21/2023 21:42,11/21/2023 21:42,Elmo tap to Kalispell-Kerr No 1 115kV line,115.0,T,G,0.10,0,Auto,Unknown,BPA,KAL,BPAT,225152
 11/21/2023 21:42,11/21/2023 21:42,Elmo-Kerr section of Kalispell-Kerr No 1 115kV line,115.0,S,G,12.80,0,Auto,Unknown,BPA,KAL,BPAT,225152
@@ -1519,25 +1584,25 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 11/22/2023 23:10,11/22/2023 23:10,Riley-Starvation Ridge section of Brasada-Harney No 1 115kV line,115.0,S,G,,0,Auto,Unknown,BPA,RED,BPAT,225159
 11/22/2023 23:10,11/22/2023 23:10,Starvation Ridge tap to Brasada-Harney No 1 115kV line,115.0,T,G,,0,Auto,Unknown,BPA,,BPAT,225159
 11/22/2023 23:10,11/22/2023 23:10,Starvation Ridge-Harney section of Brasada-Harney No 1 115kV line,115.0,S,G,,0,Auto,Unknown,BPA,RED,BPAT,225159
-11/23/2023 05:06,11/23/2023 05:06,Lower Monumental-McNary No 1 500kV line,500.0,L, ,64.75,0,Auto,Unknown,BPA,TRI,BPAT,225162
-11/23/2023 05:06,11/23/2023 05:06,Lower Monumental-Sacajawea section of Lower Monumental-McNary No 1 500kV line,500.0,S,G,26.64,0,Auto,Unknown,BPA,TRI,BPAT,225162
-11/23/2023 05:06,11/23/2023 05:06,Sacajawea tap to Lower Monumental-McNary No 1 500kV line,500.0,T, ,6.07,0,Auto,Unknown,BPA,TRI,BPAT,225162
-11/23/2023 05:06,11/23/2023 05:06,Sacajawea-McNary section of Lower Monumental-McNary No 1 500kV line,500.0,S,G,38.11,0,Auto,Unknown,BPA,TRI,BPAT,225162
-11/23/2023 12:07,11/23/2023 12:07,Targhee-Drummond No 1 115kV line,115.0,L, ,26.80,0,Auto,Unknown,Foreign,IDF,BPAT,225163
+11/23/2023 05:06,11/23/2023 05:06,Lower Monumental-McNary No 1 500kV line,500.0,L, ,64.75,0,Auto,Weather,BPA,TRI,BPAT,225162
+11/23/2023 05:06,11/23/2023 05:06,Lower Monumental-Sacajawea section of Lower Monumental-McNary No 1 500kV line,500.0,S,G,26.64,0,Auto,Weather,BPA,TRI,BPAT,225162
+11/23/2023 05:06,11/23/2023 05:06,Sacajawea tap to Lower Monumental-McNary No 1 500kV line,500.0,T, ,6.07,0,Auto,Weather,BPA,TRI,BPAT,225162
+11/23/2023 05:06,11/23/2023 05:06,Sacajawea-McNary section of Lower Monumental-McNary No 1 500kV line,500.0,S,G,38.11,0,Auto,Weather,BPA,TRI,BPAT,225162
+11/23/2023 12:07,11/23/2023 12:07,Targhee-Drummond No 1 115kV line,115.0,L, ,26.80,0,Auto,Weather,BPA,IDF,BPAT,225163
 11/25/2023 16:35,11/25/2023 18:51,Coburg (EWEB)-McKenzie (EWEB) 115kV line,115.0,L, ,1.10,136,Auto,Unknown,Foreign,EUG,EWEB,225164
 11/25/2023 16:35,11/25/2023 18:51,Coburg (EWEB)-Spring Creek (EWEB) 115kV line,115.0,L, ,5.54,136,Auto,Unknown,Foreign,EUG,EWEB,225165
-11/27/2023 03:31,11/27/2023 14:43,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,672,Auto,Weather,BPA,TRI TDA,BPAT,225166
+11/27/2023 03:31,11/27/2023 14:43,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,672,Auto,Ice,BPA,TRI TDA,BPAT,225166
 11/27/2023 18:38,11/27/2023 20:38,Midway-Priest Rapids No 2 230kV line,230.0,L, ,7.50,120,Auto,Line Material Failure,Foreign,TRI,GCPD,225167
 11/28/2023 15:58,11/28/2023 16:05,Midway-Priest Rapids No 2 230kV line,230.0,L, ,7.50,7,Auto,Line Material Failure,Foreign,TRI,GCPD,225168
 11/28/2023 23:33,11/28/2023 23:38,Midway-Priest Rapids No 2 230kV line,230.0,L, ,7.50,5,Auto,Human Element,Foreign,TRI,GCPD,225169
 11/29/2023 15:18,11/29/2023 15:41,Best Lane tap to Brasada-Harney No 1 115kV line,115.0,T, ,,23,Auto,Dispatcher,BPA,,BPAT,225170
 11/29/2023 15:18,11/29/2023 15:45,Brasada-Harney No 1 115kV line,115.0,L,T,112.85,27,Auto,Dispatcher,BPA,RED,BPAT,225170
 11/29/2023 15:18,11/29/2023 15:45,Starvation Ridge tap to Brasada-Harney No 1 115kV line,115.0,T, ,,27,Auto,Dispatcher,BPA,,BPAT,225170
-11/30/2023 01:43,11/30/2023 01:43,Addy tap to Bell-Boundary No 3 230kV line,230.0,T,G,0.02,0,Auto,Contamination,BPA,SPK,BPAT,225171
-11/30/2023 01:43,11/30/2023 01:43,Addy-Boundary section of Bell-Boundary No 3 230kV line,230.0,S,G,57.73,0,Auto,Contamination,BPA,SPK,BPAT,225171
-11/30/2023 01:43,11/30/2023 01:43,Bell-Addy section of Bell-Boundary No 3 230kV line,230.0,S,G,50.34,0,Auto,Contamination,BPA,SPK,BPAT,225171
-11/30/2023 01:43,11/30/2023 01:43,Bell-Boundary No 3 230kV line,230.0,L, ,108.07,0,Auto,Contamination,BPA,SPK,BPAT,225171
-12/01/2023 07:03,12/01/2023 14:44,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,461,Auto,Unknown,BPA,TRI TDA,BPAT,225172
+11/30/2023 01:43,11/30/2023 01:43,Addy tap to Bell-Boundary No 3 230kV line,230.0,T,G,0.02,0,Auto,Bird Droppings,BPA,SPK,BPAT,225171
+11/30/2023 01:43,11/30/2023 01:43,Addy-Boundary section of Bell-Boundary No 3 230kV line,230.0,S,G,57.73,0,Auto,Bird Droppings,BPA,SPK,BPAT,225171
+11/30/2023 01:43,11/30/2023 01:43,Bell-Addy section of Bell-Boundary No 3 230kV line,230.0,S,G,50.34,0,Auto,Bird Droppings,BPA,SPK,BPAT,225171
+11/30/2023 01:43,11/30/2023 01:43,Bell-Boundary No 3 230kV line,230.0,L, ,108.07,0,Auto,Bird Droppings,BPA,SPK,BPAT,225171
+12/01/2023 07:03,12/01/2023 14:44,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,461,Auto,Line Material Failure,BPA,TRI TDA,BPAT,225172
 12/02/2023 04:07,12/02/2023 04:07,Glasgow tap to Reedsport-Fairview No 1 115kV line,115.0,T,G,3.50,0,Auto,Line Material Failure,BPA,EUG,BPAT,225174
 12/02/2023 04:07,12/02/2023 04:07,Glasgow-Sumner section of Reedsport-Fairview No 1 115kV line,115.0,S,G,14.02,0,Auto,Line Material Failure,BPA,EUG,BPAT,225174
 12/02/2023 04:07,12/02/2023 04:07,Hauser tap to Reedsport-Fairview No 1 115kV line,115.0,T,G,1.27,0,Auto,Line Material Failure,BPA,EUG,BPAT,225174
@@ -1552,15 +1617,15 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 12/02/2023 07:18,12/02/2023 12:48,Buckley-Marion No 1 500kV line,500.0,L, ,99.33,330,Auto,Unknown,BPA,TDA RED SAL,BPAT,225180
 12/02/2023 07:18,12/02/2023 12:48,Slatt-Buckley No 1 500kV line,500.0,L, ,52.32,330,Auto,Unknown,BPA,TRI TDA,BPAT,225181
 12/04/2023 13:09,12/04/2023 13:29,Alvey-Dixonville No 1 500kV line,500.0,L, ,57.95,20,Auto,Human Element,Foreign,EUG,PAC,225185
-12/05/2023 06:58,12/05/2023 07:19,Cannon Beach-Seaside section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,8.60,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Garibaldi tap to Tillamook-PACW Astoria No 1 115kV line,115.0,T,G,0.10,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Garibaldi-Mohler section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,10.90,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Mohler-Nehalem section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,2.50,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Nehalem-Cannon Beach section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,11.60,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Seaside-Warrenton section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,12.80,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Tillamook-Garibaldi section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,8.60,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Tillamook-PACW Astoria No 1 115kV line,115.0,L, ,57.70,21,Auto,Unknown,Foreign,SAL,PAC,225186
-12/05/2023 06:58,12/05/2023 07:19,Warrenton-PACW Astoria section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,2.70,21,Auto,Unknown,Foreign,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Cannon Beach-Seaside section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,8.60,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Garibaldi tap to Tillamook-PACW Astoria No 1 115kV line,115.0,T,G,0.10,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Garibaldi-Mohler section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,10.90,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Mohler-Nehalem section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,2.50,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Nehalem-Cannon Beach section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,11.60,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Seaside-Warrenton section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,12.80,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Tillamook-Garibaldi section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,8.60,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Tillamook-PACW Astoria No 1 115kV line,115.0,L, ,57.70,21,Auto,Weather,BPA,SAL,PAC,225186
+12/05/2023 06:58,12/05/2023 07:19,Warrenton-PACW Astoria section of Tillamook-PACW Astoria No 1 115kV line,115.0,S,G,2.70,21,Auto,Weather,BPA,SAL,PAC,225186
 12/05/2023 07:21,12/05/2023 07:21,Vantage-Schultz No 1 500kV line,500.0,L, ,34.65,0,Auto,Unknown,BPA,WEN,BPAT,225191
 12/05/2023 10:05,12/05/2023 10:05,Asarco tap to Libby-Bonners Ferry No 1 115kV line,115.0,T,G,17.12,0,Auto,Unknown,BPA,KAL,BPAT,225192
 12/05/2023 10:05,12/05/2023 10:05,Libby FEC-Troy section of Libby-Bonners Ferry No 1 115kV line,115.0,S,G,17.09,0,Auto,Unknown,BPA,KAL,BPAT,225192
@@ -1601,8 +1666,11 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 12/08/2023 23:15,12/08/2023 23:15,Snipes-Chandler section of Grandview-Red Mountain No 1 115kV line,115.0,S,G,3.16,0,Auto,Weather,BPA,WEN,BPAT,225217
 12/09/2023 07:25,12/09/2023 07:25,Keeler-Forest Grove No 1 115kV line,115.0,L, ,10.53,0,Auto,Unknown,BPA,SAL,BPAT,225224
 12/10/2023 05:12,12/10/2023 05:28,Usk-Pine Street 115kV line,115.0,L, ,15.09,16,Auto,Weather,Foreign,SPK,POPD,225225
-12/12/2023 01:16,12/12/2023 01:16,Targhee-Drummond No 1 115kV line,115.0,L, ,26.80,0,Auto,Unknown,Foreign,IDF,BPAT,225229
+12/12/2023 01:16,12/12/2023 01:16,Targhee-Drummond No 1 115kV line,115.0,L, ,26.80,0,Auto,Weather,BPA,IDF,BPAT,225229
+12/12/2023 14:56,12/12/2023 15:04,Meeker-North Woodland 115kV line,115.0,L, ,8.23,8,Plan,Emergency,Foreign,,COWZ,225233
+12/13/2023 08:05,12/13/2023 13:31,Vantage-Hanford No 1 500kV line,500.0,L, ,23.46,326,Plan,Urgent,BPA,WEN TRI,BPAT,225861
 12/14/2023 06:58,12/14/2023 06:58,Celilo-Sylmar Pole No 4 1000kV line,1000.0,L, ,844.15,0,Auto,Unknown,Unknown,TDA RED,LDWP,225234
+12/14/2023 07:58,12/14/2023 14:12,Knight-Ostrander No 1 500kV line,500.0,L, ,90.05,374,Plan,Urgent,BPA,TDA LGV,BPAT,225862
 12/17/2023 11:12,12/17/2023 11:17,Burns-Summer Lake section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,110.73,5,Auto,Unknown,Foreign,RED,PAC,225235
 12/17/2023 11:12,12/17/2023 11:17,Hemingway-Burns section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,130.89,5,Auto,Unknown,Foreign,RED,PAC,225235
 12/17/2023 11:12,12/17/2023 11:17,Hemingway-Summer Lake No 1 500kV line,500.0,L, ,241.62,5,Auto,Unknown,Foreign,RED,PAC,225235
@@ -1612,7 +1680,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 12/17/2023 13:33,12/17/2023 13:42,Burns-Summer Lake section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,110.73,9,Auto,Unknown,Foreign,RED,PAC,225237
 12/17/2023 13:33,12/17/2023 13:42,Hemingway-Burns section of Hemingway-Summer Lake No 1 500kV line,500.0,S,G,130.89,9,Auto,Unknown,Foreign,RED,PAC,225237
 12/17/2023 13:33,12/17/2023 13:42,Hemingway-Summer Lake No 1 500kV line,500.0,L, ,241.62,9,Auto,Unknown,Foreign,RED,PAC,225237
-12/18/2023 07:47,12/18/2023 07:47,Ashe-Marion No 2 500kV line,500.0,L, ,224.01,0,Auto,Unknown,BPA,TRI TDA RED SAL,BPAT,225238
+12/18/2023 07:47,12/18/2023 07:47,Ashe-Marion No 2 500kV line,500.0,L, ,224.01,0,Auto,Weather,BPA,TRI TDA RED SAL,BPAT,225238
 12/19/2023 05:54,12/19/2023 05:54,Midway-Moxee No 1 115kV line,115.0,L, ,33.98,0,Auto,Weather,BPA,TRI WEN,BPAT,225240
 12/19/2023 05:54,12/19/2023 05:54,Midway-Rattlesnake section of Midway-Moxee No 1 115kV line,115.0,S,G,16.61,0,Auto,Weather,BPA,TRI WEN,BPAT,225240
 12/19/2023 05:54,12/19/2023 05:54,Rattlesnake tap to Midway-Moxee No 1 115kV line,115.0,T,G,0.01,0,Auto,Weather,BPA,WEN,BPAT,225240
@@ -1625,11 +1693,18 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 12/19/2023 21:32,12/19/2023 21:32,Elmo-Kerr section of Kalispell-Kerr No 1 115kV line,115.0,S,G,12.80,0,Auto,Unknown,BPA,KAL,BPAT,225244
 12/19/2023 21:32,12/19/2023 21:32,Kalispell-Elmo section of Kalispell-Kerr No 1 115kV line,115.0,S,G,28.59,0,Auto,Unknown,BPA,KAL,BPAT,225244
 12/19/2023 21:32,12/19/2023 21:32,Kalispell-Kerr No 1 115kV line,115.0,L, ,41.39,0,Auto,Unknown,BPA,KAL,BPAT,225244
-12/19/2023 22:22,12/19/2023 22:22,Goshen-Drummond No 1 161kV line,161.0,L, ,72.75,0,Auto,Unknown,BPA,IDF,BPAT,225246
-12/22/2023 09:05,12/22/2023 09:05,Grizzly-Captain Jack No 1 500kV line,500.0,L, ,174.50,0,Auto,Unknown,BPA,RED,BPAT,225249
-12/22/2023 09:05,12/22/2023 09:05,Grizzly-Ponderosa section of Grizzly-Captain Jack No 1 500kV line,500.0,S,G,18.50,0,Auto,Unknown,BPA,RED,BPAT,225249
-12/22/2023 09:05,12/22/2023 09:05,Ponderosa tap to Grizzly-Captain Jack No 1 500kV line,500.0,T,G,,0,Auto,Unknown,BPA,RED,BPAT,225249
-12/22/2023 09:05,12/22/2023 09:05,Ponderosa-Captain Jack section of Grizzly-Captain Jack No 1 500kV line,500.0,S,G,156.00,0,Auto,Unknown,BPA,RED,BPAT,225249
+12/19/2023 22:22,12/19/2023 22:22,Goshen-Drummond No 1 161kV line,161.0,L, ,72.75,0,Auto,Weather,BPA,IDF,BPAT,225246
+12/19/2023 22:39,12/20/2023 05:43,Slatt-Buckley No 1 500kV line,500.0,L, ,52.32,424,Plan,Voltage Control,BPA,TRI TDA,BPAT,225863
+12/19/2023 22:39,12/20/2023 05:43,Buckley-Marion No 1 500kV line,500.0,L, ,99.33,424,Plan,Voltage Control,BPA,TDA RED SAL,BPAT,225864
+12/19/2023 22:39,12/20/2023 05:43,Buckley-Grizzly No 1 500kV line,500.0,L, ,53.60,424,Plan,Voltage Control,BPA,TDA RED,BPAT,225865
+12/20/2023 08:02,12/20/2023 15:26,Vantage-Hanford No 1 500kV line,500.0,L, ,23.46,444,Plan,Urgent,BPA,WEN TRI,BPAT,225866
+12/20/2023 13:11,,Badger Canyon-Richland No 1 115kV line,115.0,L,T,5.51,still out,Plan,Normally Out,BPA,TRI,BPAT,225248
+12/20/2023 13:11,,Vista tap to Badger Canyon-Richland No 1 115kV line,115.0,T, ,0.10,still out,Plan,Normally Out,BPA,TRI,BPAT,225248
+12/20/2023 14:53,,John Day-Marion No 1 500kV line,500.0,L, ,127.51,still out,Plan,Voltage Control,BPA,TDA RED SAL,BPAT,225867
+12/22/2023 09:05,12/22/2023 09:05,Grizzly-Captain Jack No 1 500kV line,500.0,L, ,174.50,0,Auto,Line Material Failure,BPA,RED,BPAT,225249
+12/22/2023 09:05,12/22/2023 09:05,Grizzly-Ponderosa section of Grizzly-Captain Jack No 1 500kV line,500.0,S,G,18.50,0,Auto,Line Material Failure,BPA,RED,BPAT,225249
+12/22/2023 09:05,12/22/2023 09:05,Ponderosa tap to Grizzly-Captain Jack No 1 500kV line,500.0,T,G,,0,Auto,Line Material Failure,BPA,RED,BPAT,225249
+12/22/2023 09:05,12/22/2023 09:05,Ponderosa-Captain Jack section of Grizzly-Captain Jack No 1 500kV line,500.0,S,G,156.00,0,Auto,Line Material Failure,BPA,RED,BPAT,225249
 12/24/2023 02:50,12/24/2023 10:05,Glenoma-Mossyrock 230kV line,230.0,L, ,14.48,435,Auto,Unknown,Foreign,OLY,LCPUD,225251
 12/25/2023 12:50,12/25/2023 12:50,Elmo tap to Kalispell-Kerr No 1 115kV line,115.0,T,G,0.10,0,Auto,Unknown,BPA,KAL,BPAT,225255
 12/25/2023 12:50,12/25/2023 12:50,Elmo-Kerr section of Kalispell-Kerr No 1 115kV line,115.0,S,G,12.80,0,Auto,Unknown,BPA,KAL,BPAT,225255
@@ -1652,8 +1727,8 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 12/29/2023 03:16,12/29/2023 03:24,Raver-Echo Lake section of Schultz-Echo Lake No 1 500kV line,500.0,S,G,9.07,8,Auto,Unknown,BPA,COV,BPAT,225270
 12/29/2023 03:16,12/29/2023 03:24,Schultz-Echo Lake No 1 500kV line,500.0,L, ,83.36,8,Auto,Unknown,BPA,WEN COV,BPAT,225270
 12/29/2023 03:16,12/29/2023 03:24,Schultz-Raver section of Schultz-Echo Lake No 1 500kV line,500.0,S,G,74.29,8,Auto,Unknown,BPA,WEN COV,BPAT,225270
-12/29/2023 15:56,12/29/2023 15:56,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Unknown,BPA,KAL,NWMT,225272
-12/30/2023 05:21,12/30/2023 05:21,Goshen-Drummond No 1 161kV line,161.0,L, ,72.75,0,Auto,Unknown,BPA,IDF,BPAT,225273
+12/29/2023 15:56,12/29/2023 15:56,Broadview-Garrison No 1 500kV line,500.0,L, ,224.71,0,Auto,Wind,BPA,KAL,NWE,225272
+12/30/2023 05:21,12/30/2023 05:21,Goshen-Drummond No 1 161kV line,161.0,L, ,72.75,0,Auto,Weather,BPA,IDF,BPAT,225273
 12/30/2023 07:11,12/30/2023 07:11,Asarco tap to Libby-Bonners Ferry No 1 115kV line,115.0,T,G,17.12,0,Auto,Unknown,BPA,KAL,BPAT,225275
 12/30/2023 07:11,12/30/2023 07:11,Libby FEC-Troy section of Libby-Bonners Ferry No 1 115kV line,115.0,S,G,17.09,0,Auto,Unknown,BPA,KAL,BPAT,225275
 12/30/2023 07:11,12/30/2023 07:11,Libby-Bonners Ferry No 1 115kV line,115.0,L, ,59.58,0,Auto,Unknown,BPA,KAL SPK,BPAT,225275
@@ -1664,6 +1739,7 @@ Out Datetime,In Datetime,Name,Voltage (kV),Line Type,Gen Flag,Length (miles),Dur
 12/30/2023 07:11,12/30/2023 07:11,Troy-Yaak section of Libby-Bonners Ferry No 1 115kV line,115.0,S,G,12.41,0,Auto,Unknown,BPA,KAL,BPAT,225275
 12/30/2023 07:11,12/30/2023 07:11,Yaak tap to Libby-Bonners Ferry No 1 115kV line,115.0,T,G,0.01,0,Auto,Unknown,BPA,KAL,BPAT,225275
 12/30/2023 07:11,12/30/2023 07:11,Yaak-Moyie Springs section of Libby-Bonners Ferry No 1 115kV line,115.0,S,G,11.58,0,Auto,Unknown,BPA,KAL SPK,BPAT,225275
-12/31/2023 03:12,12/31/2023 03:12,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,0,Auto,Unknown,BPA,TRI TDA,BPAT,225285
-12/31/2023 03:33,12/31/2023 03:33,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,0,Auto,Unknown,BPA,TRI TDA,BPAT,225286
-12/31/2023 03:39,12/31/2023 03:39,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,0,Auto,Unknown,BPA,TRI TDA,BPAT,225287
+12/31/2023 03:12,12/31/2023 03:12,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,0,Auto,Weather,BPA,TRI TDA,BPAT,225285
+12/31/2023 03:33,12/31/2023 03:33,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,0,Auto,Weather,BPA,TRI TDA,BPAT,225286
+12/31/2023 03:39,12/31/2023 03:39,Ashe-Slatt No 1 500kV line,500.0,L, ,72.23,0,Auto,Weather,BPA,TRI TDA,BPAT,225287
+12/31/2023 06:54,12/31/2023 06:54,Vantage-Hanford No 1 500kV line,500.0,L, ,23.46,0,Auto,Bird Droppings,BPA,WEN TRI,BPAT,225288

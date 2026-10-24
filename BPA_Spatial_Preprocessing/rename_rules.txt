@@ -1,0 +1,51 @@
+ASHET-MHEW-2 -> ASHET-MIBE-1
+CJCTT-LKAL -> X
+DAVCT-MIAL -> X
+DORET-ALMN-1 -> X
+ELBET-ALLA12 -> X
+ELOPT-SMRE -> X
+FILBT-FGMC-1 -> FILBT-FOMC-1
+FOSET-GPLE-1 -> FOSET-GRLE-1
+FRZHT-COCA12 -> X
+GUTHT-TUPO -> X
+HARMT-RSVS-1 -> HARMT-ROVS-1
+HAUST-REFA-1 -> X
+HORAT-MOSN-1 -> X ;corrupt, bad geometry
+HTRKT-MCWA -> X ;merging in non-existent line
+LYNCT-CALA12 -> X
+MCCHT-COLA12 -> X ;corrupt line, incomplete, plus missing
+MINIT-DUFN43 -> X ;corrupt
+MNCRT-ALFV-1 -> MNCRT-ALFA-1
+MTAVT-ASOA -> X ;looks corrupt, incomplete
+ODEST-DEST -> X ;not useful, connects within substation, no surrounding lines
+RALST-EALI -> X ;looks corrupt and non-useful
+SACAT-IHFR-2 -> SACAT-ICFR-2
+SACAT-LMMC-1 -> SACAT-LOMC-1
+SANTT-SANA-1 -> X ;looks like a corrupt connection
+SRAGT-RUWA -> X
+VERAT-TRVW-1 -> VERAT-TRVA-1
+WAGLT-WILUT -> X
+PRRVT-AFSD-1 -> PRRVT-ALSD-1 ;merges into ALFL-SDCK-1
+WNPTT-BE45-1 -> WNP2T-BE45-1
+ALVY-SUTI-1 -> X ;Split into two unconnected lines, all within the ALVY substation. Not much value in keeping
+SNOK-MPLV-1 -> X ;Corrupt line, most of it is missing except at the entrances of the substations
+SNOK-MPLV-2 -> X ;Corrupt line, most of it is missing except at the entrances of the substations
+TILL-SOTL-1 -> X ;Corrupt. Mostly overlaps with CARL-TILL-1 + it is unconnected
+COSM-ABER-1 -> X ;Corrupt. Missing entire line until ABER 
+BIGE-MCLO-2 -> X ;corrupt, starts mid lane ends mid line.
+ARPH-MTHO-1 -> X ;good line but isolated. Only one not connected to anything
+BLPH-EMET-1 -> X ;isolated, possibly corrupt line
+STJO-STUB-1 -> X ;seems corrupt
+RIVG-KEEL-2 -> X ;corrupt line. Not in any substation, just small chunk present
+FIDA-LOPZ-3 -> X ;seems corrupt, no substations
+MTSI-TANN-1 -> X ;good line but isolated.
+WINH-TWSP-1 -> X ;isolated
+TUMB-HALL-1 -> X ;Doesnt appear to be a propper connection
+LONG-CHEM-1 -> X ;Corrupt, only insertion into LONG present
+POND-CRAL-1 -> X ;short line, and part is missing. Seems like it should go until the neighboring south substation?
+VANT-PMHT-1 -> X ;corrupt, only insertion into VANT present
+RIVS-TWRS -> X ;corrupt, just crosses river? 
+ROCK-SERV -> X ;also corrupt? just a small, isolated chunk in the park
+ALCO-FLDA-1 -> X ;corrupt, part until flda is missing it just connects with the other line from ALCO
+BCPH-DEPH-2 -> X ;maybe valid, but EXACTLY the same as BCPH-DEPH-1. Deleted as duplicate
+MISTT-ALDR-2 -> X ;corrupt, a very small piece just connecting to ALSN-DRIS-1 & 2 is present, the part to MIST substation is missing

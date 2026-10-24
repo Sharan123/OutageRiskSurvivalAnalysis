@@ -1,0 +1,68 @@
+ALVY-FAVW-1, 1, 1, Line, REST-FAVW-2
+BELL-LANC-1, 1, 0, Self, None
+BELL-LANC-1, 2, 1, Line, LANC-NOXN-1 ;Lines touching outside of substation with matching xrefcds
+LANC-NOXN-1, 1, 1, Self, None
+LANC-NOXN-1, 0, 0, Line, BELL-LANC-1
+BELL-USKS-1, 3, 0, Self, None
+BELL-USKS-1, 2, 1, Line, USKS-BOUN-1
+USKS-BOUN-1, 2, 1, Self, None
+USKS-BOUN-1, 1, 0, Line, BELL-USKS-1
+BOAD-ALKA-1, 1, 1, Self, None
+MORF-BOAD-1, 0, 0, Self, None
+BMTNT-UNDDT, 1, 0, Self, None
+BMTNT-UNDDT, 0, 1, Self, None
+SANT-ALVY-1, 2, 1, Line, SANT-ALVY-2 ;check if there is one None left
+HALNT-ALEU-1, 0, 1, Self, None
+HALNT-ALEU-1, 1, 0, Self, None
+HALST-ALEU-1, 0, 1, Self, None
+HALST-ALEU-1, 1, 0, Self, None
+MVERT-LKAL-2, 0, 0, Line, LKPT-ALVY-2
+MVERT-LKAL-2, 0, 0, Line, LKPT-ALVY-1
+UNDDT-BOAL-2, 3, 0, Self, None
+WNP2T-BE45-1, 2, 1, Self, None
+BIGE-SPCK-1, 3, 0, Self, None
+BIGE-SPCK-1, 2, 1, Line, SPCK-WINE-1
+SPCK-WINE-1, 3, 1, Self, None
+SPCK-WINE-1, 0, 0, Line, BIGE-SPCK-1
+SPCK-WINE-1, 5, 1, Line, WINE-MIDW-1
+COFT-COKY-1, 1, 0, Self, None
+HHSY-COKY-1, 1, 0, Self, None
+FRAN-BADG-2, 0, 0, Self, None
+MALN-HLTP-1, 2, 0, Self, None
+HLTP-WRNR-1, 1, 0, Self, None ;split geojson line
+HLTP-WRNR-1, 0, 1, Self, None
+HLTP-WRNR-1, 3, 1, Self, None
+NCAM-SIFT-1, 3, 0, Self, None
+SIFT-ROSS-1, 2, 1, Self, None
+RAVE-COVI-3, 1, 1, Self, None
+WINE-MIDW-1, 2, 1, Self, None
+WINE-MIDW-1, 1, 0, Line, SPCK-WINE-1
+KEEL-OREC-2, 2, 1, Self, None
+KEEL-OREC-2, 3, 0, Self, None
+STJO-KEEL-2, 2, 0, Self, None
+ICPH-FRAN-3, 0, 0, Self, None
+OREC-CANB-1, 1, 1, Self, None ;Highly corrupted line, part until CAMBery substation is missing
+OREC-CANB-1, 2, 0, Self, None
+OREC-CANB-1, 2, 1, Self, None
+OREC-CANB-1, 0, 0, Self, None
+STAC-WHRV-1, 0, 0, Self, None
+TACO-COVI-2, 1, 0, Self, None ; Seems like a corrupted line, it's not connected physically
+TACO-COVI-2, 0, 1, Self, None
+TACO-COVI-2, 1, 1, Self, None
+TACO-COVI-2, 2, 0, Self, None
+BTRD-COLU-1, 1, 1, Self, None
+COVI-BTRD-1, 0, 0, Self, None
+MURY-CUST-1, 0, 1, Self, None ; Corrupt line, small part missing
+MURY-CUST-1, 1, 0, Self, None
+LUHV-1, 0, 1, Self, None ;It only connects to the substation but goes nowhere?
+SHKT2-EMTI-2, 0, 0, Line, SHEL-KTSA-2
+SHKT2-EMTI-1, 0, 0, Line, SHEL-KTSA-2
+SHKT2-EMTI-2, 0, 0, Line, SHKT2-EMTI-1
+SHKT2-EMTI-1, 0, 0, Line, SHKT2-EMTI-2
+HEDGT-FRBC-2, 1, 1, Line, FRAN-HEDG-1
+RAVE-COVI-3, 4, 0, Self, None
+RAVE-COVI-3, 2, 1, Self, None
+BRDV-GARR-1, 0, 0, Line, BRDV-GARR-2
+BRDV-GARR-2, 0, 0, Line, BRDV-GARR-1
+GLADT-BEFR-2, 0, 0, Line, BENT-FRAN-1
+GLADT-BEFR-2, 0, 0, Line, BENT-FRAN-2

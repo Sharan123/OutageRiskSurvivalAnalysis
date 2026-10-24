@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# downloaded inputs (see README.md)
+Datasets/BPA_xlsx/
+Datasets/Weather/open-metro-cells/
+Datasets/Weather/processed/
+
+# generated outputs (rebuild with preprocess.py)
+model_data/
+FeatureManager/data/
+SurvivalModels/data/

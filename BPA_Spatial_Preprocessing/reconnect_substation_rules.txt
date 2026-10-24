@@ -1,0 +1,101 @@
+SANT-ALVY-1, 3, 0, Self, None ;The station is not named so we treat it as self-connection
+SANT-ALVY-1, 6, 1, Self, None ;
+HARBT-ALEU-1, 0, 1, Substation, HARB
+HARBT-ALEU-1, 1, 1, Substation, HARB
+LATHT-ALMN-1, 1, 1, Substation, LATH
+LATHT-ALMN-1, 2, 1, Substation, LATH
+POMET-TUNL-1, 1, 0, Substation, POME
+POMET-TUNL-1, 2, 1, Substation, POME
+POMET-TUNL-1, 3, 1, Substation, POME
+POMET-TUNL-1, 5, 1, Substation, POME
+POMET-TUNL-1, 6, 0, Substation, POME
+VERAT-TRVA-1, 1, 1, Self, None ;Sulivan substation but no other line connected to it
+VERAT-TRVA-1, 3, 1, Self, None ;Unnamed substation
+ALVY-FAVW-1, 0, 0, Substation, REST
+RAVE-COVI-3, 3, 0, Substation, RAVE
+CARL-MCMI-1, 2, 1, Substation, WINDISHAR ;WINDISHAR SUBSTATION
+CARL-MCMI-1, 0, 0, Substation, WINDISHAR ;WINDISHAR SUBSTATION
+CHEH-CENT-2, 4, 1, Substation, BLJN
+CHEH-CENT-2, 5, 0, Substation, BLJN
+EUGE-ALDW-1, 1, 0, Substation, CHESHIRE ; CHESHIRE Substation
+EUGE-ALDW-1, 2, 1, Substation, CHESHIRE ; CHESHIRE Substation
+ASHE-MARN-2, 0, 0, Substation, ASHE
+ASHE-MARN-2, 2, 1, Substation, ASHE
+BELL-BOUN-1, 2, 1, Substation, SACH
+BELL-BOUN-1, 1, 0, Substation, SACH
+BELL-BOUN-3, 4, 0, Substation, ADDY
+BELL-BOUN-3, 3, 1, Substation, ADDY
+CHEH-MASY-1, 1, 0, Substation, SILVERCREEK ; Silver Creek Substation, 2 lines totally in substation, 2 lines connecting to it
+CHEH-MASY-1, 1, 1, Substation, SILVERCREEK
+CHEH-MASY-1, 0, 0, Substation, SILVERCREEK
+CHEH-MASY-1, 0, 1, Substation, SILVERCREEK
+CHEH-MASY-1, 3, 1, Substation, SILVERCREEK
+CHEH-MASY-1, 2, 0, Substation, SILVERCREEK
+LONG-ALSN-4, 1, 1, Self, None
+ROGE-GOBE-2, 0, 1, Substation, GOBE
+ROGE-GOBE-2, 1, 1, Substation, GOBE
+USKS-BOUN-1, 4, 0, Substation, CUSI
+USKS-BOUN-1, 3, 1, Substation, CUSI
+ALSN-CLSO-1, 0, 1, Substation, CLSO
+ALSN-CLSO-1, 1, 0, Substation, CLSO
+ALSN-CLSO-1, 1, 1, Substation, CLSO
+ALSN-DRIS-2, 0, 0, Self, None ;Unnamed substation splitting the line
+ALSN-DRIS-2, 1, 1, Self, None
+BIGE-RDMD-1, 1, 1, Substation, MOPN
+BIGE-RDMD-1, 0, 0, Substation, MOPNFAMT-POAN-2
+DRIS-ASTO-1, 1, 0, Self, None ;Unnamed substation
+DRIS-ASTO-1, 0, 1, Self, None
+DRIS-NASE-1, 1, 0, Substation, WAHK
+DRIS-NASE-1, 0, 1, Substation, WAHK
+FAMT-POAN-2, 1, 0, Substation, HAPPYVALLEY ; Happy Valley Substation
+FAMT-POAN-2, 0, 1, Substation, HAPPYVALLEY
+HLSC-LKPT-1, 1, 0, Substation, OAKRIDGE ;Oakridge substation
+HLSC-LKPT-1, 0, 1, Substation, OAKRIDGE
+LANE-WEND-1, 0, 0, Substation, MAPLETON ;Mapleton substation
+LANE-WEND-1, 1, 1, Substation, MAPLETON
+LIBY-BOFE-1, 1, 0, Self, None ;Unnamed substation; Maybe its named Libby but that is the name of the other substation
+LIBY-BOFE-1, 0, 1, Self, None
+OREC-CHEM-2, 0, 0, Self, None ;Doesnt appear to have a substation. if it does its unnamed
+OREC-CHEM-2, 1, 1, Self, None
+ALVY-MNCR-1, 0, 1, None, MNCR
+MNCR-DRAN-1, 0, 0, None, MNCR
+ANTL-LRIV, 0, 0, Substation, ANTL
+LUHV-1, 0, 0, None, LUHV
+BIGC-JDAY-1, 0, 1, Substation, JDAY
+BRDV-GARR-1, 0, 0, None, BRDV
+BRDV-GARR-2, 0, 0, None, BRDV
+THUR-MCKZ-1, 0, 0, None, THUR
+HOLD-THUR-1, 0, 1, None, THUR
+OREC-STUB-C, 0, 0, None, STUB ; A bit corrupt. Removal is also an option
+PERL-SHWD-1, 0, 1, None, SHWD
+PERL-SHWD-2, 0, 1, None, SHWD
+COFL-KALI-1, 0, 0, Substation, COFL
+HEBN-ADIP-1, 0, 0, Substation, HEBN
+LMPH-LMSS-1, 0, 0, Substation, LMPH
+LRIV-SPCN-1, 0, 1, Substation, SPCN
+MARN-SANT-2, 0, 0, Substation, MARN
+MCNY-SANT-1, 0, 1, Substation, SANT
+MIPH-UNTY-1, 0, 0, Substation, MIPH
+ANAC-DIVD-1, 3, 0, Substation, ANAC
+COFT-COKY-1, 3, 1, Substation, COKY
+FIDA-LOPZ-4, 0, 1, Substation, LOPZ
+FLAT-HOTS-1, 0, 1, Substation, HOTS
+HLTP-WRNR-1, 0, 0, Substation, HLTP
+NCAM-CAMA-1, 0, 0, Substation, NCAM
+WHBL-STDV-2, 0, 0, Substation, WHBL
+TACO-RAVE-1, 0, 1, None, RAVE
+RAVE-COVI-3, 0, 0, None, RAVE
+RAVE-COVI-3, 4, 1, None, COVI
+SANT-LUHV-1, 0, 1, None, LUHV
+CASTT-CASH-1, 0, 0, None, CASH
+CARL-SHER-1, 0, 1, None, SHER
+PERL-SHWD-1, 0, 1, None, SHWD
+PERL-SHWD-2, 0, 1, None, SHWD
+PERL-SHWD-1, 0, 0, Substation, PERL
+PERL-SHWD-2, 0, 0, Substation, PERL
+GLADT-BEFR-2, 0, 1, Substation, GLAD
+HOLC-NASE-1, 0, 0, None, HOLC
+HOLCT-CHRA-1, 0, 1, None, HOLC
+SAMH-MPLV-1, 0, 0, None, SAMH ;maybe corrupt? Removal is also an option
+MONE-NOVH-1, 0, 1, None, NOVH
+GLADT-BEFR-2, 0, 0, None, BEFR
